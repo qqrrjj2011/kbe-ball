@@ -1,0 +1,1735 @@
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,418] - 
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,424] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,424] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,424] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe/res/;I:/KBE/kbengine-1.0.0/balls_server_assets/;I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/balls_server_assets/res/
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,424] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe/bin/server/
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,446] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:13993 )
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,446] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:13993, SOMAXCONN=5.
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - server-configs:
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - 	gameUpdateHertz : 30
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - 	defaultAoIRadius : 80
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - 	entryScriptFile : kbemain
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - 	internalAddr : 192.168.100.93:13993
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,447] - 	componentID : 8001
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,680] - Components::findLogger: found logger, addr:192.168.100.93:13990
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,680] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,680] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,684] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 15:24:49 Nov 23 2017. AppID: 8001. UID: 10103. PID: 4752 ----
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,718] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,718] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,718] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,849] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,849] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,849] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,853] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,853] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,853] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,854] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,887] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,925] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:24:08) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,925] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,967] - loaded script:Avatar(1).
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,973] - loaded script:Room(3).
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,976] - loaded script:Food(4).
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:52,980] - loaded script:Smash(5).
+  INFO root [0x00001e7c] [2017-12-20 16:39:52,981] - TelnetServer server is running on port 50000
+  INFO root [0x00001e7c] [2017-12-20 16:39:53,288] - ---- cellapp is running ----
+ DEBUG root [0x00001e7c] [2017-12-20 16:39:53,289] - Components::process(): Request for the process of identity...
+  WARN root [0x00001e7c] [2017-12-20 16:39:59,329] - Forwarding logs to logger[192.168.100.93:13990/0/0/0]...
+ ERROR root [0x00001e7c] [2017-12-20 16:49:23,544] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00001e7c] [2017-12-20 16:49:23,544] - The following logs sent to logger failed:
+  WARN root [0x00001e7c] [2017-12-20 16:49:23,544] - ==> [2017-12-20 16:49:23 543] TCPPacketReceiver::processPendingEvents(192.168.100.93:13990): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001e7c] [2017-12-20 16:49:23,545] - ==> [2017-12-20 16:49:23 544] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00001e7c] [2017-12-20 16:49:23,625] - TCPPacketReceiver::processPendingEvents(192.168.100.93:13991): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001e7c] [2017-12-20 16:49:23,628] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00001e7c] [2017-12-20 16:49:23,628] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001e7c] [2017-12-20 16:49:23,629] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00001e7c] [2017-12-20 16:49:23,633] - Room::onDestroy: 10003
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,635] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,636] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,638] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,639] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,641] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,642] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,643] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,643] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,644] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,645] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,645] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,646] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,647] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,648] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,649] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,650] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,651] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,652] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,653] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,653] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,656] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,657] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,658] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,658] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,659] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,660] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,660] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,660] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,661] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,662] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,662] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,663] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,664] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,664] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,664] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,665] - KeyError: 'Room_1'
+ S_DBG root [0x00001e7c] [2017-12-20 16:49:23,665] - Avatar::onDestroy: 10002.
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,666] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Avatar.py", line 124, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,666] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,667] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,668] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,680] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,680] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,682] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,683] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,684] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,684] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,685] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,685] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,686] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,687] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,687] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,688] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,688] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,689] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,689] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,689] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,692] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,693] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,693] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,694] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,695] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,695] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,696] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,698] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,701] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,702] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,703] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,703] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,704] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,705] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,706] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,706] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,707] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,708] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,709] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,709] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,712] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,713] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,713] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,714] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,715] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,715] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,717] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,717] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,718] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,718] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,719] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,720] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,725] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,726] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,727] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,728] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,729] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,729] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,730] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,730] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,731] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,731] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,732] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,732] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,733] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,733] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,734] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,734] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,735] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,735] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,736] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,736] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,737] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,738] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,738] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,739] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,741] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,742] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,742] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,743] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,745] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,745] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,746] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,746] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,747] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,747] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,748] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,748] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,749] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,749] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,750] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,750] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,751] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,751] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,752] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,752] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,756] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,757] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,757] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,757] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,759] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,759] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,760] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,760] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,764] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,765] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,765] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,766] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,767] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,767] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,768] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,768] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,768] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,769] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,769] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,770] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,771] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,771] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,772] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,772] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,773] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,773] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,774] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,774] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,775] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,776] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,776] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,776] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,777] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,778] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,778] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,778] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,779] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,780] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,781] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,781] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,781] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,782] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,782] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,783] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,784] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,784] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,784] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,785] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,785] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,786] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,786] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,787] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,788] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,788] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,789] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,789] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,790] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,790] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,791] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,791] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,793] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,793] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,794] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,794] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,795] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,795] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,796] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,796] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,797] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,797] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,798] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,798] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,798] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,799] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,799] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,800] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,801] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,802] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,803] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,803] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,804] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,805] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,805] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,806] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,806] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,807] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,807] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,807] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,808] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,809] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,810] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,810] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,811] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,812] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,812] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,812] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,813] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,814] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,814] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,814] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,815] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,815] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,816] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,816] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,817] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,818] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,818] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,818] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,819] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,820] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,820] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,820] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,821] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,821] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,822] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,822] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,823] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,824] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,824] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,824] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,825] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,825] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,826] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,826] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,827] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,827] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,828] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,828] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,829] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,830] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,830] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,830] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,831] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,831] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,832] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,832] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,833] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,834] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,834] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,834] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,835] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,836] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,836] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,836] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,837] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,838] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,838] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,838] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,839] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,840] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,840] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,841] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,841] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,842] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,843] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,843] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,845] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,845] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,846] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,846] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,847] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,847] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,848] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,848] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,849] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,849] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,850] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,850] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,851] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,852] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,853] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,853] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,854] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,854] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,855] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,855] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,856] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,857] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,857] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,857] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,858] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,859] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,859] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,859] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,860] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,861] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,861] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,861] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,862] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,863] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,863] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,863] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,864] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,864] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,865] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,865] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,866] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,866] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,867] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,867] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,868] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,868] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,869] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,869] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,870] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,870] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,871] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,871] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,872] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,872] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,873] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,873] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,874] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,875] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,875] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,876] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,877] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,877] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,878] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,878] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,878] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,879] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,879] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,880] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,881] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,881] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,882] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,882] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,883] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,884] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,885] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,885] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,886] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,886] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,887] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,887] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,888] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,888] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,889] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,889] - KeyError: 'Room_1'
+  INFO root [0x00001e7c] [2017-12-20 16:49:23,889] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,927] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,928] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,928] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,928] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,929] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,930] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,931] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,931] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,932] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,932] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,933] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,933] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,933] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,934] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,934] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,935] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,935] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,936] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,936] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,936] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,937] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,938] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,938] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,939] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,940] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,940] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,941] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,941] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,942] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,942] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,943] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,943] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,944] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,944] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,945] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,945] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,945] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,946] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,947] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,947] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,948] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,948] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,949] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,949] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,950] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,950] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,951] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,951] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,952] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,952] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,953] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,953] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,954] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,954] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,955] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,955] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,956] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,957] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,957] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,957] - KeyError: 'Room_1'
+ S_ERR root [0x00001e7c] [2017-12-20 16:49:23,958] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+  INFO root [0x00002060] [2017-12-20 16:49:51,370] - 
+  INFO root [0x00002060] [2017-12-20 16:49:51,371] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002060] [2017-12-20 16:49:51,371] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/
+  INFO root [0x00002060] [2017-12-20 16:49:51,371] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe/res/;I:/KBE/kbengine-1.0.0/balls_server_assets/;I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/balls_server_assets/res/
+  INFO root [0x00002060] [2017-12-20 16:49:51,372] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe/bin/server/
+  INFO root [0x00002060] [2017-12-20 16:49:51,379] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:14412 )
+  INFO root [0x00002060] [2017-12-20 16:49:51,379] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:14412, SOMAXCONN=5.
+  INFO root [0x00002060] [2017-12-20 16:49:51,379] - server-configs:
+  INFO root [0x00002060] [2017-12-20 16:49:51,379] - 	gameUpdateHertz : 30
+  INFO root [0x00002060] [2017-12-20 16:49:51,380] - 	defaultAoIRadius : 80
+  INFO root [0x00002060] [2017-12-20 16:49:51,380] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00002060] [2017-12-20 16:49:51,380] - 	entryScriptFile : kbemain
+  INFO root [0x00002060] [2017-12-20 16:49:51,380] - 	internalAddr : 192.168.100.93:14412
+  INFO root [0x00002060] [2017-12-20 16:49:51,380] - 	componentID : 8001
+  INFO root [0x00002060] [2017-12-20 16:49:51,386] - Components::findLogger: found logger, addr:192.168.100.93:14406
+  INFO root [0x00002060] [2017-12-20 16:49:51,387] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00002060] [2017-12-20 16:49:51,387] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002060] [2017-12-20 16:49:51,391] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 15:24:49 Nov 23 2017. AppID: 8001. UID: 10103. PID: 5716 ----
+  INFO root [0x00002060] [2017-12-20 16:49:51,392] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [0x00002060] [2017-12-20 16:49:51,392] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002060] [2017-12-20 16:49:51,392] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,528] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,528] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,529] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,532] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,532] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,532] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,533] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,566] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002060] [2017-12-20 16:49:51,599] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:24:08) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00002060] [2017-12-20 16:49:51,599] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,623] - loaded script:Avatar(1).
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,625] - loaded script:Room(3).
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,626] - loaded script:Food(4).
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,627] - loaded script:Smash(5).
+  INFO root [0x00002060] [2017-12-20 16:49:51,627] - TelnetServer server is running on port 50000
+  INFO root [0x00002060] [2017-12-20 16:49:51,882] - ---- cellapp is running ----
+ DEBUG root [0x00002060] [2017-12-20 16:49:51,882] - Components::process(): Request for the process of identity...
+  WARN root [0x00002060] [2017-12-20 16:49:57,922] - Forwarding logs to logger[192.168.100.93:14406/0/0/0]...
+ ERROR root [0x00002060] [2017-12-20 16:53:11,254] - 192.168.100.93:14406: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00002060] [2017-12-20 17:04:50,239] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00002060] [2017-12-20 17:04:50,241] - The following logs sent to logger failed:
+  WARN root [0x00002060] [2017-12-20 17:04:50,241] - ==> [2017-12-20 17:04:50 239] TCPPacketReceiver::processPendingEvents(192.168.100.93:14406): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002060] [2017-12-20 17:04:50,241] - ==> [2017-12-20 17:04:50 240] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00002060] [2017-12-20 17:04:50,324] - TCPPacketReceiver::processPendingEvents(192.168.100.93:14408): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002060] [2017-12-20 17:04:50,327] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00002060] [2017-12-20 17:04:50,332] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002060] [2017-12-20 17:04:50,340] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00002060] [2017-12-20 17:04:50,344] - Room::onDestroy: 10003
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,346] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,348] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,349] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,354] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,357] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,358] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,359] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,360] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,361] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,366] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,366] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,368] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,369] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,370] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,372] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,373] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,374] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,375] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,376] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,377] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,386] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,387] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,388] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,389] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,391] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,392] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,393] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,394] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,395] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,401] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,402] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,403] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,404] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,405] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,406] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,407] - KeyError: 'Room_1'
+ S_DBG root [0x00002060] [2017-12-20 17:04:50,408] - Avatar::onDestroy: 10002.
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,408] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Avatar.py", line 124, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,409] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,410] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,415] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,430] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,431] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,432] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,433] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,434] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,435] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,436] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,437] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,438] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,439] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,440] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,441] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,442] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,443] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,444] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,444] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,449] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,450] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,451] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,452] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,454] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,455] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,456] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,457] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,460] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,461] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,462] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,462] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,463] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,464] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,465] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,466] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,467] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,468] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,469] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,470] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,472] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,473] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,475] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,475] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,477] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,478] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,478] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,479] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,481] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,482] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,483] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,483] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,486] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,487] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,488] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,489] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,490] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,491] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,491] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,492] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,492] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,493] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,494] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,494] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,495] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,496] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,496] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,497] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,498] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,498] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,499] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,500] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,501] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,501] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,502] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,503] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,507] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,508] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,509] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,509] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,512] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,513] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,513] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,514] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,514] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,515] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,516] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,516] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,517] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,517] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,518] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,519] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,519] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,520] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,521] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,521] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,523] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,524] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,525] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,525] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,526] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,526] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,527] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,527] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,530] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,531] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,531] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,531] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,532] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,533] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,534] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,534] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,535] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,535] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,536] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,536] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,537] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,538] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,538] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,539] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,539] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,540] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,541] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,541] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,542] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,543] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,543] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,544] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,544] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,545] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,546] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,546] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,547] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,548] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,549] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,549] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,550] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,551] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,551] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,552] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,552] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,553] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,554] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,554] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,555] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,555] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,556] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,556] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,557] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,558] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,558] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,559] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,560] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,560] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,561] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,561] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,563] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,563] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,564] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,564] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,565] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,566] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,567] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,567] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,568] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,568] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,569] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,569] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,570] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,571] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,571] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,572] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,573] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,573] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,574] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,574] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,575] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,575] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,576] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,576] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,577] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,578] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,578] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,579] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,580] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,580] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,581] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,581] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,582] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,583] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,583] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,584] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,585] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,586] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,587] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,588] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,589] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,590] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,590] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,591] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,592] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,592] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,593] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,593] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,594] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,594] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,595] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,595] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,596] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,597] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,597] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,598] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,599] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,599] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,600] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,600] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,602] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,602] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,603] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,603] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,604] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,604] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,605] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,605] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,606] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,607] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,608] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,608] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,609] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,610] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,610] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,611] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,612] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,612] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,613] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,613] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,614] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,614] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,615] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,615] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,616] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,617] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,617] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,617] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,619] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,619] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,620] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,620] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,621] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Smash.py", line 66, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,622] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,623] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,624] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,626] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,627] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,627] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,628] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,629] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,629] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,630] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,630] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,631] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,632] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,632] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,633] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,634] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,634] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,635] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,635] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,636] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,637] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,637] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,637] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,638] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,639] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,640] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,640] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,641] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,642] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,642] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,643] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,644] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,645] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,645] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,646] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,647] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,648] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,648] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,649] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,649] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,650] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,651] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,651] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,652] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,652] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,653] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,653] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,654] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,655] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,656] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,656] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,657] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,658] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,658] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,659] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,660] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,660] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,661] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,661] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,662] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,662] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,663] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 42, in getCurrRoomBase
+    return KBEngine.globalData.get("Room_%i" % self.spaceID)
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,663] - KeyError: 'Room_1'
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,664] - Traceback (most recent call last):
+  File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\Food.py", line 21, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00002060] [2017-12-20 17:04:50,665] -   File "I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/cell\interfaces\EntityCommon.py", line 48, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+  INFO root [0x00001908] [2017-12-20 17:04:57,744] - 
+  INFO root [0x00001908] [2017-12-20 17:04:57,745] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001908] [2017-12-20 17:04:57,745] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/
+  INFO root [0x00001908] [2017-12-20 17:04:57,745] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe/res/;I:/KBE/kbengine-1.0.0/balls_server_assets/;I:/KBE/kbengine-1.0.0/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/balls_server_assets/res/
+  INFO root [0x00001908] [2017-12-20 17:04:57,745] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe/bin/server/
+  INFO root [0x00001908] [2017-12-20 17:04:57,752] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:15055 )
+  INFO root [0x00001908] [2017-12-20 17:04:57,752] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:15055, SOMAXCONN=5.
+  INFO root [0x00001908] [2017-12-20 17:04:57,752] - server-configs:
+  INFO root [0x00001908] [2017-12-20 17:04:57,753] - 	gameUpdateHertz : 30
+  INFO root [0x00001908] [2017-12-20 17:04:57,753] - 	defaultAoIRadius : 80
+  INFO root [0x00001908] [2017-12-20 17:04:57,753] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00001908] [2017-12-20 17:04:57,753] - 	entryScriptFile : kbemain
+  INFO root [0x00001908] [2017-12-20 17:04:57,753] - 	internalAddr : 192.168.100.93:15055
+  INFO root [0x00001908] [2017-12-20 17:04:57,753] - 	componentID : 8001
+  INFO root [0x00001908] [2017-12-20 17:04:57,783] - Components::findLogger: found logger, addr:192.168.100.93:15031
+  INFO root [0x00001908] [2017-12-20 17:04:57,783] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00001908] [2017-12-20 17:04:57,783] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001908] [2017-12-20 17:04:57,788] - ---- cellapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: D25B4E16028C33EB467B7BE2F3500426. Config: Debug X86. Built: 15:24:49 Nov 23 2017. AppID: 8001. UID: 10103. PID: 4556 ----
+  INFO root [0x00001908] [2017-12-20 17:04:57,788] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [0x00001908] [2017-12-20 17:04:57,788] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001908] [2017-12-20 17:04:57,788] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,924] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,925] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,925] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,928] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,928] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,929] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,929] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001908] [2017-12-20 17:04:57,963] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001908] [2017-12-20 17:04:57,997] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:24:08) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00001908] [2017-12-20 17:04:57,997] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001908] [2017-12-20 17:04:58,026] - loaded script:Avatar(1).
+ DEBUG root [0x00001908] [2017-12-20 17:04:58,029] - loaded script:Room(3).
+ DEBUG root [0x00001908] [2017-12-20 17:04:58,030] - loaded script:Food(4).
+ DEBUG root [0x00001908] [2017-12-20 17:04:58,031] - loaded script:Smash(5).
+  INFO root [0x00001908] [2017-12-20 17:04:58,031] - TelnetServer server is running on port 50000
+  INFO root [0x00001908] [2017-12-20 17:04:58,282] - ---- cellapp is running ----
+ DEBUG root [0x00001908] [2017-12-20 17:04:58,282] - Components::process(): Request for the process of identity...
+  WARN root [0x00001908] [2017-12-20 17:05:04,325] - Forwarding logs to logger[192.168.100.93:15031/0/0/0]...
+ ERROR root [0x00001908] [2017-12-20 17:45:58,861] - 192.168.100.93:15031: TCPPacketSender::processSend(1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001908] [2017-12-20 18:42:56,129] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00001908] [2017-12-20 18:42:56,132] - The following logs sent to logger failed:
+  WARN root [0x00001908] [2017-12-20 18:42:56,132] - ==> [2017-12-20 18:42:56 128] TCPPacketReceiver::processPendingEvents(192.168.100.93:15031): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001908] [2017-12-20 18:42:56,132] - ==> [2017-12-20 18:42:56 130] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00001908] [2017-12-20 18:42:56,183] - TCPPacketReceiver::processPendingEvents(192.168.100.93:15036): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001908] [2017-12-20 18:42:56,183] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00001908] [2017-12-20 18:42:56,184] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001908] [2017-12-20 18:42:56,184] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001908] [2017-12-20 18:42:56,184] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,210] - EntityRef::destroyObjPool(): size 627.
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,210] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,417] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,418] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,418] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,418] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,418] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,419] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,419] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,419] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001908] [2017-12-20 18:42:56,450] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001908] [2017-12-20 18:42:56,451] - ThreadPool::destroy(): starting size 2.
