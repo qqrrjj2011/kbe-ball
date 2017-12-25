@@ -46,7 +46,7 @@ class Smash(KBEngine.Entity, EntityCommon):
 						range_xz, range_y, controllerID, userarg))
 		
 		# 有玩家进入范围，销毁自己同时粉碎玩家(假设玩家体积在粉碎范围)
-		self.destroy()
+		#self.destroy()
 
 	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):
 		"""

@@ -1,0 +1,490 @@
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:24 976] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:24 977] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:24 977] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:24 977] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 002] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:1639 )
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 003] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:1639, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 003] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 003] - 	internalAddr : 192.168.100.93:1639
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 003] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 064] - Components::findLogger: found logger, addr:192.168.100.93:1627
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 065] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 065] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 083] - ---- dbmgr Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 253D45E587CB031BFD545E02866042FC. Config: Debug X86. Built: 15:23:38 Nov 23 2017. AppID: 4000. UID: 10103. PID: 5184 ----
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 084] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 084] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 084] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 219] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 219] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 219] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 223] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 223] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 223] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 224] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:25 258] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 293] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 293] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 306] - Dbmgr::initializeEnd: digest(D26875CF255618408C34F0C4CE379AA1)
+  S_INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 306] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 306] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:25 306] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 10:57:26 013] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+9ADECCBEB8B3C55B85F4620171104897F3E8F856DBEABB19C1DCCD977C0F8E49A9F82F7017AC0C50992FBCBB31BF4FA682F42B436F493889F1D5470DEDA7181F2041D92F788055EB598BE7C93813A93D2870D8FE8867B794F07ACAF5DEA7BD5231333C4D5ADA92B941CF1DE08A21227F8720182F2D2EE8BDC81C74DEE64FFED8
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 015] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   ERROR      dbmgr-1 10103 4000  [2017-12-21 10:57:26 104] - DBInterfaceMysql::attach: mysql_errno=1045, mysql_error=Access denied for user 'kbe'@'localhost' (using password: YES)
+   ERROR      dbmgr-1 10103 4000  [2017-12-21 10:57:26 104] - DBUtil::createInterface: attach to database failed!
+	dbinterface=0x37f220
+	args=interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=no.
+
+   ERROR      dbmgr-1 10103 4000  [2017-12-21 10:57:26 105] - Dbmgr::initDB(): can't create dbInterface!
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 10:57:26 105] - dbmgr.cpp:293: Profile scriptCall took 0.80 seconds
+   ERROR      dbmgr-1 10103 4000  [2017-12-21 10:57:26 105] - app::initialize(): initialization failed!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 106] - ThreadPool::destroy(): starting size 0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 506] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 507] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2017-12-21 10:57:26 517] - Script::uninstall(): is successfully!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:26 517] - ThreadPool::destroy(): starting size 2.
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 10:57:26 817] - ThreadPool::destroy(): waiting for thread(2)[0x777530,0x7774c8,], try=1
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 217] - TPThread::~TPThread(): 0x777530
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 217] - TPThread::~TPThread(): 0x7774c8
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 217] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 217] - Bundle::destroyObjPool(): size 11.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - Channel::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - EndPoint::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - Address::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 10:57:27 218] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 478] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 479] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 479] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 479] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 486] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:2190 )
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 487] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:2190, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 487] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 487] - 	internalAddr : 192.168.100.93:2190
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 487] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 538] - Components::findLogger: found logger, addr:192.168.100.93:2186
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 539] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 539] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 544] - ---- dbmgr Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 253D45E587CB031BFD545E02866042FC. Config: Debug X86. Built: 15:23:38 Nov 23 2017. AppID: 4000. UID: 10103. PID: 3764 ----
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 544] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 544] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 544] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 676] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 676] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 677] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 680] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 680] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 680] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 681] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:57 717] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 760] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 760] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 779] - Dbmgr::initializeEnd: digest(D26875CF255618408C34F0C4CE379AA1)
+  S_INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 779] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 779] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:57 780] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 11:30:58 456] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+0B6DB32D28FF5883916CC12F2ACF93814E10230FEFC29E4A4B7BB509E4A8E910C67FBBA20B3210BDE7812ADDF9859CB4FB0BF01CA9133D739E8900D0CC0552434F57F10FE3B2D2CB1CD811CB4434483E8373C141CAD13B02C27CA31272326423B20BA6FF4ACD34997190F8D54725AE5F072132BA4789DBCE423FFC0A30C472CD
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 457] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 464] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 464] - DBUtil::createInterface[0x28f1b4]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 465] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 465] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 567] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 568] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 11:30:58 669] - dbmgr.cpp:293: Profile scriptCall took 0.89 seconds
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 943] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 943] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 465] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 465] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 465] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 465] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 466] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 468] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 468] - DBThread::onStart(): 0x496628!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBThread::onStart(): 0x496490!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBThread::onStart(): 0x4965a0!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBThread::onStart(): 0x496518!
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 469] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:30:58 470] - DBThread::onStart(): 0x4966b0!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 574] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 574] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 574] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 574] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 595] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 596] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 596] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:30:58 655] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:06 019] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:09 379] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:2194, extaddr:nonsupport, extport:0,  from 192.168.100.93:2228/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:09 379] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:09 379] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:09 579] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:2198, extaddr:nonsupport, extport:0,  from 192.168.100.93:2231/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:09 579] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:12 420] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:2199, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:2233/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:12 420] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:13 720] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:2210, extaddr:nonsupport, extport:0,  from 192.168.100.93:2236/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:13 720] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:15 180] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:2209, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:2240/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:15 180] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:18 180] - IDServer::allocRange: 1-10001.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:18 180] - IDServer::allocRange: 10001-20001.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:31:18 180] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:20 239] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.100.93:2233/0/0/0), keySize=11, valSize=46, isDelete=0
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:31:57 759] - Dbmgr::onAccountLogin:loginName=qqqqqq, accountName=qqqqqq, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:31:57 939] - Dbmgr::queryAccount: qqqqqq, success=1, flags=0, deadline=0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:31:58 059] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.100.93:2236/0/0/0), keySize=12, valSize=46, isDelete=0
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:40:59 076] - Dbmgr::writeEntity: Avatar(1).
+    INFO      dbmgr-1 10103 4000  [2017-12-21 11:43:58 115] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.100.93:2236/0/0/0), keySize=12, valSize=0, isDelete=1
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:45:59 034] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:50:59 052] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 11:55:59 051] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:00:59 030] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:05:59 028] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:10:59 006] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:15:59 044] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:20:59 042] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:25:59 041] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:30:58 720] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:30:59 000] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:35:59 018] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:40:59 016] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:45:59 034] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:50:59 032] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 12:55:59 031] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:00:59 010] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:05:59 008] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:10:59 006] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:15:58 984] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:20:59 022] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:25:59 020] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:30:58 760] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:30:59 000] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:35:58 998] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:40:58 996] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:45:58 994] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:50:59 012] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 13:55:59 010] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:00:58 990] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:05:58 988] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:10:58 986] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:15:58 984] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:20:59 002] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:25:59 000] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:30:58 740] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:30:58 980] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:35:58 998] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:40:58 976] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:45:58 974] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:50:58 992] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 14:55:58 990] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:00:59 149] - Dbmgr::writeEntity: Avatar(1).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 15:00:59 142] - DBTransaction::commit(): took 0.21 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:05:59 028] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:10:58 966] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:15:58 964] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:20:58 982] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:25:58 980] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:30:58 759] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:30:58 958] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:35:58 958] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:40:58 976] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:45:58 954] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:50:58 972] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 15:55:59 010] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:00:58 949] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:05:58 948] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:10:58 946] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:15:58 944] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:20:58 962] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:25:58 960] - Dbmgr::writeEntity: Avatar(1).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:30:58 805] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:30:59 039] - Dbmgr::writeEntity: Avatar(1).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:30:59 328] - dbmgr.cpp:231: Profile mainTick took 0.09 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:30:59 328] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.09 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:30:59 327] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, logger) values(1513845058,4000) ON DUPLICATE KEY UPDATE heartbeatTime=1513845058)
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:30:59 398] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.07 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:30:59 438] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:35:58 958] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:40:58 976] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:45:58 934] - Dbmgr::writeEntity: Avatar(1).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:50:59 045] - dbmgr.cpp:231: Profile mainTick took 0.09 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:50:59 045] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.09 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:50:59 441] - DBTransaction::commit(): took 0.30 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 16:50:59 501] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.10 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:50:59 501] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 16:55:58 950] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:00:58 928] - Dbmgr::writeEntity: Avatar(1).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:02:18 642] - dbmgr.cpp:954: Profile scriptCall took 0.11 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:02:18 642] - dbmgr.cpp:231: Profile mainTick took 0.11 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:02:18 643] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.11 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:02:19 453] - DBTask::process(): took 0.81 seconds
+sql:(select entityID, ip, port, componentID, logger from kbe_entitylog where entityDBID=3 and entityType=1 LIMIT 1)
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:02:19 528] - Dbmgr::onAccountLogin:loginName=aaaaaa, accountName=aaaaaa, success=0, componentID=0, entityID=0, dbid=3, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:02:20 108] - Dbmgr::queryAccount: aaaaaa, success=1, flags=0, deadline=0.
+    INFO      dbmgr-1 10103 4000  [2017-12-21 17:02:21 093] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.100.93:2236/0/0/0), keySize=12, valSize=46, isDelete=0
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:02:21 101] - dbmgr.cpp:231: Profile mainTick took 0.03 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:02:21 102] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:05:58 927] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:08:28 986] - Dbmgr::writeEntity: Avatar(3).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 421] - dbmgr.cpp:231: Profile mainTick took 0.12 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 421] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.12 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 740] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("bot_6501925003001397248_112363595888590852",md5(""),"bots","bot_6501925003001397248_112363595888590852@0.0",114,0,0,1513847391,1513847391))
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 756] - DBTask::process(): took 0.51 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("bot_6501925003001397248_112363595888590849",md5(""),"bots","bot_6501925003001397248_112363595888590849@0.0",112,0,0,1513847391,1513847391))
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 756] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("bot_6501925003001397248_112363595888590850",md5(""),"bots","bot_6501925003001397248_112363595888590850@0.0",115,0,0,1513847391,1513847391))
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 761] - DBTask::process(): took 0.45 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("bot_6501925003001397248_112363595888590851",md5(""),"bots","bot_6501925003001397248_112363595888590851@0.0",113,0,0,1513847391,1513847391))
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:51 801] - DBTask::process(): took 0.43 seconds
+sql:(insert into kbe_accountinfos (accountName, password, bindata, email, entityDBID, flags, deadline, regtime, lasttime) values("bot_6501925003001397248_112363595888590848",md5(""),"bots","bot_6501925003001397248_112363595888590848@0.0",116,0,0,1513847391,1513847391))
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 806] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590852.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 866] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590850.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 866] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590849.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 866] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590851.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 926] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590857.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 926] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590848.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:51 986] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590853.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 066] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590855.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 106] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590856.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 106] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590852, accountName=bot_6501925003001397248_112363595888590852, success=0, componentID=0, entityID=0, dbid=114, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 106] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590849, accountName=bot_6501925003001397248_112363595888590849, success=0, componentID=0, entityID=0, dbid=112, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 106] - Dbmgr::reqCreateAccount: bot_6501925003001397248_112363595888590854.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 166] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590850, accountName=bot_6501925003001397248_112363595888590850, success=0, componentID=0, entityID=0, dbid=115, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 306] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590848, accountName=bot_6501925003001397248_112363595888590848, success=0, componentID=0, entityID=0, dbid=116, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 426] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590851, accountName=bot_6501925003001397248_112363595888590851, success=0, componentID=0, entityID=0, dbid=113, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 426] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590857, accountName=bot_6501925003001397248_112363595888590857, success=0, componentID=0, entityID=0, dbid=117, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 426] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590853, accountName=bot_6501925003001397248_112363595888590853, success=0, componentID=0, entityID=0, dbid=118, flags=0, deadline=0.
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:52 412] - DBTransaction::commit(): took 0.21 seconds
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:52 412] - DBTransaction::commit(): took 0.21 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 506] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590855, accountName=bot_6501925003001397248_112363595888590855, success=0, componentID=0, entityID=0, dbid=119, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 546] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590856, accountName=bot_6501925003001397248_112363595888590856, success=0, componentID=0, entityID=0, dbid=121, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 546] - Dbmgr::onAccountLogin:loginName=bot_6501925003001397248_112363595888590854, accountName=bot_6501925003001397248_112363595888590854, success=0, componentID=0, entityID=0, dbid=120, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 546] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590849, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 606] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590852, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 786] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590851, success=1, flags=0, deadline=0.
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:52 751] - DBTask::process(): took 0.26 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, logger) values(115,1,8,"192.168.100.93",4368,7001,4000))
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:09:52 752] - DBTask::process(): took 0.22 seconds
+sql:(insert into kbe_entitylog (entityDBID, entityType, entityID, ip, port, componentID, logger) values(116,1,9,"192.168.100.93",4624,7001,4000))
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 826] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590857, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 826] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590853, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 826] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590850, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 826] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590848, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 906] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590855, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 946] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590856, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:09:52 986] - Dbmgr::queryAccount: bot_6501925003001397248_112363595888590854, success=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:10:58 926] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:11:23 985] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:11:48 966] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:12:14 045] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:12:39 005] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:13:03 965] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:13:29 684] - Dbmgr::writeEntity: Avatar(119).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:13:29 672] - DBTransaction::commit(): took 0.75 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:13:53 965] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:14:18 944] - Dbmgr::writeEntity: Avatar(1).
+    INFO      dbmgr-1 10103 4000  [2017-12-21 17:14:20 624] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.100.93:2236/0/0/0), keySize=12, valSize=0, isDelete=1
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:14:43 925] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:15:08 924] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:15:33 924] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:15:58 924] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:16:23 963] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:16:49 024] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:17:13 943] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:17:38 944] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:18:03 943] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:18:28 963] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:18:53 923] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:19:18 942] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:19:43 923] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:20:08 942] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:20:33 943] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:20:58 942] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:21:23 922] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:21:48 922] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:22:13 941] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:22:25 942] - Dbmgr::writeEntity: Avatar(1).
+    INFO      dbmgr-1 10103 4000  [2017-12-21 17:22:25 927] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:22:26 011] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:22:38 922] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:23:03 941] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:23:28 922] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:23:53 941] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:24:18 921] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:24:43 921] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:25:08 940] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:25:33 921] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:25:59 020] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:26:26 221] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:26:53 560] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:27:20 780] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:27:48 059] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:28:15 300] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:28:42 599] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:29:09 859] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:29:37 120] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:30:04 419] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:30:31 659] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:30:58 818] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:30:58 919] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:31:26 279] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:31:53 498] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:32:20 778] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:32:48 079] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:33:15 318] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:33:42 598] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:34:09 857] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:34:37 118] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:35:04 397] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:35:31 657] - Dbmgr::writeEntity: Avatar(3).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:35:58 917] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:36:26 217] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:36:53 497] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:37:20 757] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:37:43 396] - Dbmgr::writeEntity: Avatar(3).
+    INFO      dbmgr-1 10103 4000  [2017-12-21 17:37:43 390] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=3, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:37:43 436] - Dbmgr::onEntityOffline: 3, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:37:48 017] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:38:15 296] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:38:42 596] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:39:09 856] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:40:04 395] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:40:31 656] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:40:58 916] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:41:28 915] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:41:58 935] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:42:28 915] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:42:59 354] - Dbmgr::writeEntity: Avatar(120).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 17:42:59 353] - DBTransaction::commit(): took 0.46 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:43:28 954] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:43:58 915] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:44:28 915] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:44:58 914] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:45:28 914] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:45:58 914] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:46:28 913] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:46:58 933] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:47:28 933] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:47:58 933] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:48:28 953] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:48:58 913] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:49:28 913] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:49:58 932] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:50:28 932] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:50:58 932] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:51:28 952] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:51:58 931] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:52:28 931] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:52:58 992] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:53:28 931] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:53:58 911] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:54:28 931] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:54:58 931] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:55:28 930] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:55:58 950] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:56:28 930] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:56:58 911] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:57:28 910] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:57:58 910] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:58:28 910] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:58:58 909] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:59:28 929] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 17:59:58 929] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:00:28 929] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:00:58 948] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:01:28 929] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:01:58 909] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:02:28 908] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:02:58 888] - Dbmgr::writeEntity: Avatar(118).
+ WARNING      dbmgr-1 10103 4000  [2017-12-21 18:03:29 294] - DBTransaction::commit(): took 0.25 seconds
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:03:29 308] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:03:58 968] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:04:28 927] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:04:58 927] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:05:28 908] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:05:58 907] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:06:28 907] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:06:58 927] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:07:28 887] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:07:58 926] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:08:28 926] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:08:58 926] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:09:28 926] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:09:58 906] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:10:28 906] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:10:58 906] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:11:28 905] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:11:58 925] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:12:28 925] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:12:58 924] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:13:28 964] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:13:58 904] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:14:28 905] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:14:58 904] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:15:28 924] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:15:58 904] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:16:28 923] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:16:58 923] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:17:28 923] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:17:58 923] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:18:28 903] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:18:58 903] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:19:28 903] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:19:58 902] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:20:28 902] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:20:58 922] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:21:28 922] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:21:58 921] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:22:28 921] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:22:58 902] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:23:28 901] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:23:58 901] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:24:28 901] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:24:58 921] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:25:28 920] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:25:58 920] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:26:28 920] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:26:58 900] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:27:28 900] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:27:58 900] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:28:28 900] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:28:58 899] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:29:28 919] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:29:58 939] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:30:28 918] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:30:58 778] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:30:58 899] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:31:28 899] - Dbmgr::writeEntity: Avatar(121).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:31:58 899] - Dbmgr::writeEntity: Avatar(112).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:32:28 898] - Dbmgr::writeEntity: Avatar(115).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:32:58 898] - Dbmgr::writeEntity: Avatar(116).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:33:28 918] - Dbmgr::writeEntity: Avatar(120).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:33:58 917] - Dbmgr::writeEntity: Avatar(119).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:34:28 917] - Dbmgr::writeEntity: Avatar(114).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:34:58 917] - Dbmgr::writeEntity: Avatar(113).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:35:28 898] - Dbmgr::writeEntity: Avatar(117).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:35:58 897] - Dbmgr::writeEntity: Avatar(118).
+   DEBUG      dbmgr-1 10103 4000  [2017-12-21 18:36:28 877] - Dbmgr::writeEntity: Avatar(121).

@@ -1,0 +1,134 @@
+  INFO root [0x00000c68] [2017-12-21 10:57:26,967] - 
+  INFO root [0x00000c68] [2017-12-21 10:57:26,968] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000c68] [2017-12-21 10:57:26,968] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO root [0x00000c68] [2017-12-21 10:57:26,969] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO root [0x00000c68] [2017-12-21 10:57:26,969] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO root [0x00000c68] [2017-12-21 10:57:27,162] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20015 )
+  INFO root [0x00000c68] [2017-12-21 10:57:27,162] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20015, SOMAXCONN=128.
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:1663 )
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:1663, SOMAXCONN=128.
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - server-configs:
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - 	gameUpdateHertz : 30
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - 	entryScriptFile : kbemain
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - 	internalAddr : 192.168.100.93:1663
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - 	externalAddr : 192.168.100.93:20015
+  INFO root [0x00000c68] [2017-12-21 10:57:27,164] - 	componentID : 7001
+  INFO root [0x00000c68] [2017-12-21 10:57:27,504] - Components::findLogger: found logger, addr:192.168.100.93:1627
+  INFO root [0x00000c68] [2017-12-21 10:57:27,504] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00000c68] [2017-12-21 10:57:27,504] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000c68] [2017-12-21 10:57:27,508] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 15:24:03 Nov 23 2017. AppID: 7001. UID: 10103. PID: 3532 ----
+  INFO root [0x00000c68] [2017-12-21 10:57:27,509] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [0x00000c68] [2017-12-21 10:57:27,509] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000c68] [2017-12-21 10:57:27,509] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,638] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,638] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,639] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,642] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,642] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,643] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,643] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,678] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000c68] [2017-12-21 10:57:27,715] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:51) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00000c68] [2017-12-21 10:57:27,715] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,737] - loaded script:Avatar(1).
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,811] - loaded script:Halls(2).
+ DEBUG root [0x00000c68] [2017-12-21 10:57:27,813] - loaded script:Room(3).
+  INFO root [0x00000c68] [2017-12-21 10:57:27,815] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000c68] [2017-12-21 10:57:27,816] - TelnetServer server is running on port 40000
+  INFO root [0x00000c68] [2017-12-21 10:57:28,072] - ---- baseapp is running ----
+ DEBUG root [0x00000c68] [2017-12-21 10:57:28,073] - Components::process(): Request for the process of identity...
+  WARN root [0x00000c68] [2017-12-21 10:57:34,117] - Forwarding logs to logger[192.168.100.93:1627/0/0/0]...
+ ERROR root [0x00000c68] [2017-12-21 10:57:40,430] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00000c68] [2017-12-21 10:57:40,431] - The following logs sent to logger failed:
+  WARN root [0x00000c68] [2017-12-21 10:57:40,431] - ==> [2017-12-21 10:57:40 430] TCPPacketReceiver::processPendingEvents(192.168.100.93:1627): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000c68] [2017-12-21 10:57:40,432] - ==> [2017-12-21 10:57:40 430] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,557] - 
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,557] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,558] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,558] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,558] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,581] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20015 )
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,581] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20015, SOMAXCONN=128.
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,583] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:1692 )
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,583] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:1692, SOMAXCONN=128.
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,583] - server-configs:
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,584] - 	gameUpdateHertz : 30
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,584] - 	entryScriptFile : kbemain
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,584] - 	internalAddr : 192.168.100.93:1692
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,584] - 	externalAddr : 192.168.100.93:20015
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,584] - 	componentID : 7001
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,928] - Components::findLogger: found logger, addr:192.168.100.93:1683
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,928] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,928] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,932] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 15:24:03 Nov 23 2017. AppID: 7001. UID: 10103. PID: 2184 ----
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,933] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,933] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000ec0] [2017-12-21 10:57:46,933] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,060] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,061] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,061] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,064] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,065] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,065] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,065] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,099] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000ec0] [2017-12-21 10:57:47,134] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:51) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00000ec0] [2017-12-21 10:57:47,134] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,156] - loaded script:Avatar(1).
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,167] - loaded script:Halls(2).
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,169] - loaded script:Room(3).
+  INFO root [0x00000ec0] [2017-12-21 10:57:47,171] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000ec0] [2017-12-21 10:57:47,171] - TelnetServer server is running on port 40000
+  INFO root [0x00000ec0] [2017-12-21 10:57:47,435] - ---- baseapp is running ----
+ DEBUG root [0x00000ec0] [2017-12-21 10:57:47,436] - Components::process(): Request for the process of identity...
+  WARN root [0x00000ec0] [2017-12-21 10:57:53,479] - Forwarding logs to logger[192.168.100.93:1683/0/0/0]...
+ ERROR root [0x00000ec0] [2017-12-21 10:57:56,155] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00000ec0] [2017-12-21 10:57:56,158] - The following logs sent to logger failed:
+  WARN root [0x00000ec0] [2017-12-21 10:57:56,159] - ==> [2017-12-21 10:57:56 155] TCPPacketReceiver::processPendingEvents(192.168.100.93:1683): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000ec0] [2017-12-21 10:57:56,159] - ==> [2017-12-21 10:57:56 156] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x000011d0] [2017-12-21 11:30:58,023] - 
+  INFO root [0x000011d0] [2017-12-21 11:30:58,024] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000011d0] [2017-12-21 11:30:58,024] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO root [0x000011d0] [2017-12-21 11:30:58,025] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO root [0x000011d0] [2017-12-21 11:30:58,025] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO root [0x000011d0] [2017-12-21 11:30:58,032] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20015 )
+  INFO root [0x000011d0] [2017-12-21 11:30:58,032] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20015, SOMAXCONN=128.
+  INFO root [0x000011d0] [2017-12-21 11:30:58,036] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:2199 )
+  INFO root [0x000011d0] [2017-12-21 11:30:58,036] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:2199, SOMAXCONN=128.
+  INFO root [0x000011d0] [2017-12-21 11:30:58,036] - server-configs:
+  INFO root [0x000011d0] [2017-12-21 11:30:58,036] - 	gameUpdateHertz : 30
+  INFO root [0x000011d0] [2017-12-21 11:30:58,036] - 	entryScriptFile : kbemain
+  INFO root [0x000011d0] [2017-12-21 11:30:58,037] - 	internalAddr : 192.168.100.93:2199
+  INFO root [0x000011d0] [2017-12-21 11:30:58,037] - 	externalAddr : 192.168.100.93:20015
+  INFO root [0x000011d0] [2017-12-21 11:30:58,037] - 	componentID : 7001
+  INFO root [0x000011d0] [2017-12-21 11:30:58,482] - Components::findLogger: found logger, addr:192.168.100.93:2186
+  INFO root [0x000011d0] [2017-12-21 11:30:58,482] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000011d0] [2017-12-21 11:30:58,482] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000011d0] [2017-12-21 11:30:58,487] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 15:24:03 Nov 23 2017. AppID: 7001. UID: 10103. PID: 2828 ----
+  INFO root [0x000011d0] [2017-12-21 11:30:58,487] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [0x000011d0] [2017-12-21 11:30:58,487] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000011d0] [2017-12-21 11:30:58,488] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,616] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,617] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,617] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,620] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,620] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,621] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,621] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,656] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000011d0] [2017-12-21 11:30:58,690] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:51) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x000011d0] [2017-12-21 11:30:58,690] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,713] - loaded script:Avatar(1).
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,725] - loaded script:Halls(2).
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,726] - loaded script:Room(3).
+  INFO root [0x000011d0] [2017-12-21 11:30:58,728] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000011d0] [2017-12-21 11:30:58,728] - TelnetServer server is running on port 40000
+  INFO root [0x000011d0] [2017-12-21 11:30:58,998] - ---- baseapp is running ----
+ DEBUG root [0x000011d0] [2017-12-21 11:30:58,998] - Components::process(): Request for the process of identity...
+  WARN root [0x000011d0] [2017-12-21 11:31:05,041] - Forwarding logs to logger[192.168.100.93:2186/0/0/0]...

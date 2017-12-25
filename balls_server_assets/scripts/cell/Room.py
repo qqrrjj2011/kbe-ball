@@ -71,15 +71,20 @@ class Room(KBEngine.Entity):
 
 		for i in range(diffFoodsCount):
 			pos = GameUtils.randomPosition3D(5.0)
-			dir = (0.0, 0.0, 0.0)
 			mass = random.randint(5, 10) # 这个粮食吃掉奖励的能量
 			radius = 1.0
-			entity = KBEngine.createEntity("Food", self.spaceID, pos, dir, {"modelID" : random.randint(0, 2), "mass" : mass, "modelRadius" : radius})
-			self.foods.append(entity.id)
+			self.createFood(pos,mass,radius)
 
 		if diffFoodsCount > 0 or diffSmashsCount > 0:
 			DEBUG_MSG('Room::balanceMass: space %i, roomKey=%i, addNewFoodsCount = %i, totalFoodsCount = %i, addNewSmashsCount = %i, totalSmashsCount = %i.' % 
 				(self.spaceID, self.roomKeyC, diffFoodsCount, len(self.foods), diffSmashsCount, len(self.smashs)))
+
+	# 创建粮食
+	def createFood(self, pos, massNum, radius):
+		dir = (0.0, 0.0, 0.0)
+		entity = KBEngine.createEntity("Food", self.spaceID, pos, dir, {"modelID" : random.randint(0, 2), "mass" : massNum, "modelRadius" : radius})
+		self.foods.append(entity.id)
+		 
 			
 	#--------------------------------------------------------------------------------------------
 	#                              Callbacks

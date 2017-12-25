@@ -1,0 +1,399 @@
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:26 968] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:26 969] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:26 969] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:26 969] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 162] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20015 )
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 162] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:1663 )
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:1663, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - server-configs:
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - 	internalAddr : 192.168.100.93:1663
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 164] - 	externalAddr : 192.168.100.93:20015
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 165] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 504] - Components::findLogger: found logger, addr:192.168.100.93:1627
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 504] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 504] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 508] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 15:24:03 Nov 23 2017. AppID: 7001. UID: 10103. PID: 3532 ----
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 509] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 509] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 509] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 638] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 638] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 639] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 642] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 642] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 643] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 643] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 678] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 715] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:51) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 715] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 737] - loaded script:Avatar(1).
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 812] - loaded script:Halls(2).
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:27 813] - loaded script:Room(3).
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 815] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:27 816] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:28 072] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:28 073] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2017-12-21 10:57:34 117] - EntityApp::checkTickPeriod: tick took 18318% (18.32 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:35 170] - Components::findComponents: find dbmgr(1)...
+ WARNING    baseapp-1 10103 7001  [2017-12-21 10:57:36 218] - EntityApp::checkTickPeriod: tick took 3269% (3.27 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:37 239] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 10103 7001  [2017-12-21 10:57:38 322] - EntityApp::checkTickPeriod: tick took 3381% (3.38 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 557] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 558] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 558] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 559] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 581] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20015 )
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 581] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 583] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:1692 )
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 583] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:1692, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 584] - server-configs:
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 584] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 584] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 584] - 	internalAddr : 192.168.100.93:1692
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 584] - 	externalAddr : 192.168.100.93:20015
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 584] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 928] - Components::findLogger: found logger, addr:192.168.100.93:1683
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 928] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 928] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 933] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 15:24:03 Nov 23 2017. AppID: 7001. UID: 10103. PID: 2184 ----
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 933] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 933] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:46 933] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 061] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 061] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 061] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 064] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 065] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 065] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 065] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 100] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:47 134] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:51) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:47 134] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 157] - loaded script:Avatar(1).
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 168] - loaded script:Halls(2).
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 169] - loaded script:Room(3).
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:47 171] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:47 171] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:47 435] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 10:57:47 436] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2017-12-21 10:57:53 479] - EntityApp::checkTickPeriod: tick took 18315% (18.32 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 10:57:54 536] - Components::findComponents: find dbmgr(1)...
+ WARNING    baseapp-1 10103 7001  [2017-12-21 10:57:55 546] - EntityApp::checkTickPeriod: tick took 3163% (3.16 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 024] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 024] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 025] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 025] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 032] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20015 )
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 032] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 036] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:2199 )
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 036] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:2199, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 036] - server-configs:
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 036] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 037] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 037] - 	internalAddr : 192.168.100.93:2199
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 037] - 	externalAddr : 192.168.100.93:20015
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 037] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 482] - Components::findLogger: found logger, addr:192.168.100.93:2186
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 482] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 482] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 487] - ---- baseapp Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: B363447A744C7D8D9BBF49B8B8360068. Config: Debug X86. Built: 15:24:03 Nov 23 2017. AppID: 7001. UID: 10103. PID: 2828 ----
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 487] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 487] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 488] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 616] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 617] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 617] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 620] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 621] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 621] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 621] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 656] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 690] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:51) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 690] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 713] - loaded script:Avatar(1).
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 725] - loaded script:Halls(2).
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 726] - loaded script:Room(3).
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 728] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 728] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:30:58 998] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:30:58 999] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2017-12-21 11:31:05 041] - EntityApp::checkTickPeriod: tick took 18312% (18.31 seconds)!
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:31:05 865] - Baseapp::lookApp: 192.168.100.93:2221/0/0/0
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:06 099] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:06 137] - Components::findComponents: found dbmgr, addr:192.168.100.93:2190
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:06 137] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:06 137] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:06 137] - Components::findComponents: found dbmgr, addr:192.168.100.93:2190
+ WARNING    baseapp-1 10103 7001  [2017-12-21 11:31:07 137] - EntityApp::checkTickPeriod: tick took 3248% (3.25 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:08 165] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:08 246] - Components::findComponents: found baseappmgr, addr:192.168.100.93:2194
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:08 246] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:08 246] - Components::findComponents: found baseappmgr, addr:192.168.100.93:2194
+ WARNING    baseapp-1 10103 7001  [2017-12-21 11:31:09 246] - EntityApp::checkTickPeriod: tick took 3375% (3.38 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:10 265] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:10 348] - Components::findComponents: found cellappmgr, addr:192.168.100.93:2198
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:10 348] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:10 349] - Components::findComponents: found cellappmgr, addr:192.168.100.93:2198
+ WARNING    baseapp-1 10103 7001  [2017-12-21 11:31:11 350] - EntityApp::checkTickPeriod: tick took 3384% (3.38 seconds)!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:12 399] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2017-12-21 11:31:12 399] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:12 426] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:12 432] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:12 465] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:13 732] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.100.93, intport:2210, extaddr:nonsupport, extport:0,  from 192.168.100.93:2190/0/0/0.
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:13 732] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2017-12-21 11:31:18 199] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-10001), startGlobalOrder=3, startGroupOrder=1, digest=D26875CF255618408C34F0C4CE379AA1.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:18 199] - IDClient::onAddRange: number of ids increased from 1 to 10001.
+ WARNING    baseapp01 10103 7001  [2017-12-21 11:31:18 509] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20470, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2017-12-21 11:31:19 720] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2017-12-21 11:31:19 720] - I:\KBE\kbengine-1.0.0\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 1.52 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 11:31:19 720] - baseapp.cpp:511: Profile gameTick took 1.52 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 11:31:19 720] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.52 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 11:31:19 721] - EntityApp::checkTickPeriod: tick took 4612% (4.61 seconds)!
+   DEBUG    baseapp01 10103 7001  [2017-12-21 11:31:20 199] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2017-12-21 11:31:20 226] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:20 227] - EntityApp::createEntity: new Halls 1
+   DEBUG    baseapp01 10103 7001  [2017-12-21 11:31:20 232] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 10103 7001  [2017-12-21 11:31:57 798] - PendingLoginMgr::add: qqqqqq, size=1.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:57 865] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.100.93:2244/0/0/0
+ WARNING    baseapp01 10103 7001  [2017-12-21 11:31:57 865] - Baseapp::onHello: client is not encrypted, addr=192.168.100.93:2244/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:57 898] - Baseapp::loginBaseapp: new user[qqqqqq], channel[192.168.100.93:2244/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2017-12-21 11:31:57 965] - PendingLoginMgr::remove: qqqqqq, size=0.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:57 965] - EntityApp::createEntity: new Avatar 2
+  S_INFO    baseapp01 10103 7001  [2017-12-21 11:31:57 966] - Avatar[2] entities enable. mailbox:Client id:2, utype:1, component=client[0], addr: 192.168.100.93:2244.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:31:57 967] - Halls::enterRoom: space 6501837959313424385 creating..., enter entityID=2
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:57 967] - Baseapp::onQueryAccountCBFromDbmgr: user=qqqqqq, uuid=6501837959313424384, entityID=2, flags=0, deadline=0.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:31:57 998] - EntityApp::createEntity: new Room 3
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:31:57 998] - Halls::onRoomCreatedCB: space 6501837959313424385. entityID=3
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:31:58 065] - onGlobalData: Room_1
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:31:58 065] - Room::onGetCell: 3
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:31:58 098] - Avatar::onGetCell: Cell id:2, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:37:18 764] - Baseapp::onBackupEntityCellData: Avatar(2), 76 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:40:59 029] - Baseapp::onBackupEntityCellData: Avatar(2), 1 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 11:40:59 029] - Baseapp::onCellWriteToDBCompleted: Avatar(2).
+    INFO    baseapp01 10103 7001  [2017-12-21 11:42:52 129] - Baseapp::onBackupEntityCellData: Room(3), 39 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:43:58 127] - onDelGlobalData: Room_1
+    INFO    baseapp01 10103 7001  [2017-12-21 11:43:58 127] - Baseapp::onBackupEntityCellData: Room(3), 39 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:43:58 127] - Halls::onRoomLoseCell: space 6501837959313424385.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 11:43:58 127] - Room::~Room(): 3
+    INFO    baseapp01 10103 7001  [2017-12-21 11:43:58 127] - Baseapp::onBackupEntityCellData: Avatar(2), 76 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 11:43:58 128] - Avatar::onLoseCell: 2
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:39:19 225] - EntityApp::checkTickPeriod: tick took 266% (0.27 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:40:16 822] - EntityApp::checkTickPeriod: tick took 263% (0.26 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:40:28 637] - EntityApp::checkTickPeriod: tick took 206% (0.21 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:40:50 849] - EntityApp::checkTickPeriod: tick took 245% (0.25 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:41:50 843] - EntityApp::checkTickPeriod: tick took 227% (0.23 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:45:16 728] - EntityApp::checkTickPeriod: tick took 284% (0.28 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:45:16 865] - EntityApp::checkTickPeriod: tick took 393% (0.39 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 579] - EntityApp::checkTickPeriod: tick took 342% (0.34 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 690] - baseapp.cpp:511: Profile gameTick took 0.11 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 692] - EntityApp::checkTickPeriod: tick took 342% (0.34 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 794] - baseapp.cpp:511: Profile gameTick took 0.10 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 797] - EntityApp::checkTickPeriod: tick took 315% (0.31 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 871] - baseapp.cpp:511: Profile gameTick took 0.07 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 873] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.29 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:16 873] - EntityApp::checkTickPeriod: tick took 227% (0.23 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:17 217] - EntityApp::checkTickPeriod: tick took 251% (0.25 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:17 260] - baseapp.cpp:511: Profile gameTick took 0.04 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 14:47:17 261] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:07:18 881] - baseapp.cpp:511: Profile gameTick took 0.06 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:07:18 891] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.10 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:07:18 895] - EntityApp::checkTickPeriod: tick took 321% (0.32 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:07:28 241] - EntityApp::checkTickPeriod: tick took 245% (0.25 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:09:33 528] - EntityApp::checkTickPeriod: tick took 412% (0.41 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:11:53 943] - EntityApp::checkTickPeriod: tick took 257% (0.26 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:12:21 988] - EntityApp::checkTickPeriod: tick took 287% (0.29 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:13:28 929] - EntityApp::checkTickPeriod: tick took 218% (0.22 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 15:14:59 428] - EntityApp::checkTickPeriod: tick took 212% (0.21 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:13:31 021] - EntityApp::checkTickPeriod: tick took 212% (0.21 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:13:31 356] - baseapp.cpp:511: Profile gameTick took 0.52 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:13:31 357] - EntityApp::checkTickPeriod: tick took 1563% (1.56 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:13:31 360] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.52 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:13:49 352] - EntityApp::checkTickPeriod: tick took 348% (0.35 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:13:49 640] - EntityApp::checkTickPeriod: tick took 309% (0.31 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:16:12 658] - EntityApp::checkTickPeriod: tick took 266% (0.27 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:49:15 838] - EntityApp::checkTickPeriod: tick took 239% (0.24 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:58 946] - base.cpp:1155: Profile scriptCall took 0.05 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:59 010] - baseapp.cpp:532: Profile archive took 0.05 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:59 011] - baseapp.cpp:511: Profile gameTick took 0.12 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:59 011] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.12 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:59 011] - EntityApp::checkTickPeriod: tick took 360% (0.36 seconds)!
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:59 067] - baseapp.cpp:511: Profile gameTick took 0.06 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 16:50:59 068] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:02:19 746] - PendingLoginMgr::add: aaaaaa, size=1.
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:19 753] - I:\KBE\kbengine-1.0.0\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 0.06 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:19 754] - baseapp.cpp:511: Profile gameTick took 0.07 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:19 754] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.07 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:19 850] - EntityApp::checkTickPeriod: tick took 287% (0.29 seconds)!
+    INFO    baseapp01 10103 7001  [2017-12-21 17:02:19 859] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.100.93:4098/0/0/0
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:19 860] - Baseapp::onHello: client is not encrypted, addr=192.168.100.93:4098/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 17:02:19 889] - Baseapp::loginBaseapp: new user[aaaaaa], channel[192.168.100.93:4098/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:02:20 121] - PendingLoginMgr::remove: aaaaaa, size=0.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:02:20 340] - EntityApp::createEntity: new Avatar 4
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:20 410] - i:\kbe\kbengine-1.0.0\kbe\src\server\baseapp\base.h:53: Profile scriptCall took 0.04 seconds
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:02:20 431] - Avatar[4] entities enable. mailbox:Client id:4, utype:1, component=client[0], addr: 192.168.100.93:4098.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:02:20 452] - Halls::enterRoom: space 6501923098450132993 creating..., enter entityID=4
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:20 452] - proxy.cpp:181: Profile scriptCall took 0.04 seconds
+    INFO    baseapp01 10103 7001  [2017-12-21 17:02:20 452] - Baseapp::onQueryAccountCBFromDbmgr: user=aaaaaa, uuid=6501923098450132992, entityID=4, flags=0, deadline=0.
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:20 452] - I:\KBE\kbengine-1.0.0\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 0.33 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:20 453] - baseapp.cpp:511: Profile gameTick took 0.33 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:20 453] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.33 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:02:20 453] - EntityApp::checkTickPeriod: tick took 1006% (1.01 seconds)!
+    INFO    baseapp01 10103 7001  [2017-12-21 17:02:20 490] - EntityApp::createEntity: new Room 5
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:02:20 490] - Halls::onRoomCreatedCB: space 6501923098450132993. entityID=5
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:02:21 106] - Room::onGetCell: 5
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:02:21 147] - onGlobalData: Room_2
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:02:21 188] - Avatar::onGetCell: Cell id:4, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:08:28 919] - Baseapp::onBackupEntityCellData: Avatar(4), 76 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:08:28 919] - Baseapp::onCellWriteToDBCompleted: Avatar(4).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:08:59 486] - Baseapp::onBackupEntityCellData: Avatar(4), 1 bytes.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 185] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590852, size=1.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 185] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590849, size=2.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 219] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=D7 E2 E9 AB 51 A8 21 60 AE FF 49 D5 C6 5D 93 6F , addr:192.168.100.93:4111/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 282] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=EB 39 B4 B8 9C C4 07 B6 8E 08 08 65 AA C0 69 31 , addr:192.168.100.93:4112/0/0/0
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 283] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590850, size=3.
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:09:52 283] - I:\KBE\kbengine-1.0.0\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 0.06 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:09:52 283] - baseapp.cpp:511: Profile gameTick took 0.06 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:09:52 283] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:09:52 353] - EntityApp::checkTickPeriod: tick took 406% (0.41 seconds)!
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 354] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590849], channel[192.168.100.93:4111/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 385] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590852], channel[192.168.100.93:4112/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 385] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=D6 4D 46 AF 34 24 59 40 F6 14 D7 12 54 DB 0F 0F , addr:192.168.100.93:4113/0/0/0
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 385] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590848, size=4.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 419] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590850], channel[192.168.100.93:4113/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 419] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=F9 7B 09 EB 42 A0 FF BB 11 8B 79 28 B1 85 15 DD , addr:192.168.100.93:4114/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 452] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590848], channel[192.168.100.93:4114/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 485] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590851, size=5.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 485] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590857, size=6.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 485] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590853, size=7.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 540] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=C3 02 B7 7D 7F 85 49 14 58 A0 3D F4 D5 80 E3 9B , addr:192.168.100.93:4115/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 540] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=76 D7 75 84 2A 7E 29 C4 04 B9 56 74 72 FE 89 17 , addr:192.168.100.93:4116/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 552] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590857], channel[192.168.100.93:4115/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 552] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=E9 54 37 F5 6D 9C 32 CB B9 43 0C A5 2D E1 E3 A2 , addr:192.168.100.93:4117/0/0/0
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 552] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590849, size=6.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 553] - EntityApp::createEntity: new Avatar 6
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 553] - Avatar[6] entities enable. mailbox:Client id:6, utype:1, component=client[0], addr: 192.168.100.93:4111.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 553] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590849, uuid=6501925039775350784, entityID=6, flags=0, deadline=0.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 579] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590855, size=7.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 585] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590853], channel[192.168.100.93:4116/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 585] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590851], channel[192.168.100.93:4117/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 585] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=AE 80 87 F8 54 DA 88 36 62 24 21 A2 F9 95 4C 48 , addr:192.168.100.93:4118/0/0/0
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 585] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590856, size=8.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 585] - PendingLoginMgr::add: bot_6501925003001397248_112363595888590854, size=9.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 586] - Avatar::onGetCell: Cell id:6, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 636] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590852, size=8.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 636] - EntityApp::createEntity: new Avatar 7
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 636] - Avatar[7] entities enable. mailbox:Client id:7, utype:1, component=client[0], addr: 192.168.100.93:4112.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 637] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590852, uuid=6501925039775350785, entityID=7, flags=0, deadline=0.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 668] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590855], channel[192.168.100.93:4118/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 668] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=D6 8F 77 95 1A 24 02 E6 23 D5 EA B9 D6 6E 36 FA , addr:192.168.100.93:4119/0/0/0
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 668] - ServerApp::onHello: verInfo=1.0.0, scriptVerInfo=0.1.0, encryptedKey=D2 B0 C3 01 F1 E4 D7 2B 34 23 71 CE 88 73 CD D5 , addr:192.168.100.93:4120/0/0/0
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 668] - Avatar::onGetCell: Cell id:7, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:09:52 723] - proxy.cpp:821: Profile sendToClient took 0.05 seconds
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:09:52 723] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 785] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590854], channel[192.168.100.93:4119/0/0/0].
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 785] - Baseapp::loginBaseapp: new user[bot_6501925003001397248_112363595888590856], channel[192.168.100.93:4120/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 819] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590851, size=7.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 819] - EntityApp::createEntity: new Avatar 12
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 820] - Avatar[12] entities enable. mailbox:Client id:12, utype:1, component=client[0], addr: 192.168.100.93:4117.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 820] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590851, uuid=6501925039775350786, entityID=12, flags=0, deadline=0.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 852] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590857, size=6.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 852] - EntityApp::createEntity: new Avatar 10
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 852] - Avatar[10] entities enable. mailbox:Client id:10, utype:1, component=client[0], addr: 192.168.100.93:4115.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590857, uuid=6501925039775350787, entityID=10, flags=0, deadline=0.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590853, size=5.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - EntityApp::createEntity: new Avatar 11
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - Avatar[11] entities enable. mailbox:Client id:11, utype:1, component=client[0], addr: 192.168.100.93:4116.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590853, uuid=6501925039775350788, entityID=11, flags=0, deadline=0.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590850, size=4.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 853] - EntityApp::createEntity: new Avatar 8
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 854] - Avatar[8] entities enable. mailbox:Client id:8, utype:1, component=client[0], addr: 192.168.100.93:4113.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 854] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590850, uuid=6501925039775350789, entityID=8, flags=0, deadline=0.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 854] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590848, size=3.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 854] - EntityApp::createEntity: new Avatar 9
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 854] - Avatar[9] entities enable. mailbox:Client id:9, utype:1, component=client[0], addr: 192.168.100.93:4114.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 854] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590848, uuid=6501925039775350790, entityID=9, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 855] - Avatar::onGetCell: Cell id:12, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 885] - Avatar::onGetCell: Cell id:10, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 885] - Avatar::onGetCell: Cell id:11, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 919] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590855, size=2.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 919] - EntityApp::createEntity: new Avatar 13
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 919] - Avatar[13] entities enable. mailbox:Client id:13, utype:1, component=client[0], addr: 192.168.100.93:4118.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 919] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590855, uuid=6501925039775350791, entityID=13, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 920] - Avatar::onGetCell: Cell id:8, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 920] - Avatar::onGetCell: Cell id:9, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:52 952] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590856, size=1.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 953] - EntityApp::createEntity: new Avatar 15
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 953] - Avatar[15] entities enable. mailbox:Client id:15, utype:1, component=client[0], addr: 192.168.100.93:4120.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:52 953] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590856, uuid=6501925039775350792, entityID=15, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 953] - Avatar::onGetCell: Cell id:13, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:52 986] - Avatar::onGetCell: Cell id:15, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:09:53 019] - PendingLoginMgr::remove: bot_6501925003001397248_112363595888590854, size=0.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:53 019] - EntityApp::createEntity: new Avatar 14
+  S_INFO    baseapp01 10103 7001  [2017-12-21 17:09:53 020] - Avatar[14] entities enable. mailbox:Client id:14, utype:1, component=client[0], addr: 192.168.100.93:4119.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:09:53 020] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6501925003001397248_112363595888590854, uuid=6501925044070318080, entityID=14, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:09:53 052] - Avatar::onGetCell: Cell id:14, utype:1, component=cellapp[8001], addr: 192.168.100.93:2210.
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:10:10 908] - TCPPacketReceiver::processPendingEvents(192.168.100.93:2244): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:10:10 908] - Avatar::onClientDeath: 2.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:10:10 922] - Avatar[2].onClientDeath:
+    INFO    baseapp01 10103 7001  [2017-12-21 17:10:13 318] - Baseapp::onBackupEntityCellData: Room(5), 39 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:11:23 918] - Baseapp::onBackupEntityCellData: Avatar(8), 76 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:11:23 918] - Baseapp::onCellWriteToDBCompleted: Avatar(8).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:11:24 751] - Baseapp::onBackupEntityCellData: Room(5), 1 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:11:48 918] - Baseapp::onBackupEntityCellData: Avatar(12), 77 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:11:48 918] - Baseapp::onCellWriteToDBCompleted: Avatar(12).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:12:00 484] - Baseapp::onBackupEntityCellData: Avatar(6), 76 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:12:13 918] - Baseapp::onBackupEntityCellData: Avatar(9), 76 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:12:13 918] - Baseapp::onCellWriteToDBCompleted: Avatar(9).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:12:36 184] - Baseapp::onBackupEntityCellData: Avatar(4), 1 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:12:38 917] - Baseapp::onBackupEntityCellData: Avatar(11), 77 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:12:38 917] - Baseapp::onCellWriteToDBCompleted: Avatar(11).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:03 918] - Baseapp::onBackupEntityCellData: Avatar(4), 1 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:03 918] - Baseapp::onCellWriteToDBCompleted: Avatar(4).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:11 884] - Baseapp::onBackupEntityCellData: Avatar(15), 77 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:28 917] - Baseapp::onBackupEntityCellData: Avatar(13), 77 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:28 917] - Baseapp::onCellWriteToDBCompleted: Avatar(13).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:53 918] - Baseapp::onBackupEntityCellData: Avatar(7), 76 bytes.
+    INFO    baseapp01 10103 7001  [2017-12-21 17:13:53 918] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:20 617] - Baseapp::onBackupEntityCellData: Room(5), 39 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:20 617] - Halls::onRoomLoseCell: space 6501923098450132993.
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:14:20 650] - Room::~Room(): 5
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:20 650] - onDelGlobalData: Room_2
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:21 250] - Baseapp::onBackupEntityCellData: Avatar(4), 76 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:21 250] - Avatar::onLoseCell: 4
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:24 417] - Baseapp::onBackupEntityCellData: Avatar(15), 77 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:24 417] - Avatar::onLoseCell: 15
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:24 650] - Baseapp::onBackupEntityCellData: Avatar(14), 77 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:24 650] - Avatar::onLoseCell: 14
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Baseapp::onBackupEntityCellData: Avatar(6), 76 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Avatar::onLoseCell: 6
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Baseapp::onBackupEntityCellData: Avatar(7), 76 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Avatar::onLoseCell: 7
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Baseapp::onBackupEntityCellData: Avatar(12), 77 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Avatar::onLoseCell: 12
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Baseapp::onBackupEntityCellData: Avatar(10), 77 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Avatar::onLoseCell: 10
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 117] - Baseapp::onBackupEntityCellData: Avatar(11), 77 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Avatar::onLoseCell: 11
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Baseapp::onBackupEntityCellData: Avatar(8), 76 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Avatar::onLoseCell: 8
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Baseapp::onBackupEntityCellData: Avatar(9), 76 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Avatar::onLoseCell: 9
+    INFO    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Baseapp::onBackupEntityCellData: Avatar(13), 77 bytes.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:14:25 118] - Avatar::onLoseCell: 13
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:22:25 881] - Avatar::onDestroyTimer: 2
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:22:25 893] - Avatar::~Avatar(): 2
+ WARNING    baseapp01 10103 7001  [2017-12-21 17:25:28 378] - TCPPacketReceiver::processPendingEvents(192.168.100.93:4098): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:25:28 378] - Avatar::onClientDeath: 4.
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:25:28 378] - Avatar[4].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2017-12-21 17:37:43 342] - Avatar::onDestroyTimer: 4
+   DEBUG    baseapp01 10103 7001  [2017-12-21 17:37:43 342] - Avatar::~Avatar(): 4

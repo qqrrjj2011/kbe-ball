@@ -1,0 +1,118 @@
+  INFO root [2017-12-21 10:57:24,335] - 
+  INFO root [2017-12-21 10:57:24,336] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-12-21 10:57:24,337] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO root [2017-12-21 10:57:24,337] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO root [2017-12-21 10:57:24,337] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO root [2017-12-21 10:57:24,363] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:30099 )
+  INFO root [2017-12-21 10:57:24,363] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:30099, SOMAXCONN=5.
+  INFO root [2017-12-21 10:57:24,367] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 15:23:35 Nov 23 2017. AppID: 3000. UID: 10103. PID: 3640 ----
+  INFO root [2017-12-21 10:57:24,367] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [2017-12-21 10:57:24,367] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-12-21 10:57:24,367] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-12-21 10:57:24,500] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-12-21 10:57:24,500] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-12-21 10:57:24,501] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2017-12-21 10:57:24,504] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-12-21 10:57:24,504] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-12-21 10:57:24,504] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-12-21 10:57:24,505] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-12-21 10:57:24,538] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-12-21 10:57:24,573] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-12-21 10:57:24,573] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-12-21 10:57:24,585] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-12-21 10:57:24,620] - TelnetServer server is running on port 33000
+  WARN root [2017-12-21 10:57:24,621] - interfaces.cpp:164: Profile scriptCall took 0.04 seconds
+  INFO root [2017-12-21 10:57:24,869] - ---- interfaces is running ----
+ DEBUG root [2017-12-21 10:57:24,869] - Components::process(): Request for the process of identity...
+  INFO root [2017-12-21 10:57:32,119] - Components::process(): Found all the components!
+  INFO root [2017-12-21 10:57:46,238] - 
+  INFO root [2017-12-21 10:57:46,239] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-12-21 10:57:46,239] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO root [2017-12-21 10:57:46,239] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO root [2017-12-21 10:57:46,239] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO root [2017-12-21 10:57:46,246] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:30099 )
+  INFO root [2017-12-21 10:57:46,247] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:30099, SOMAXCONN=5.
+  INFO root [2017-12-21 10:57:46,250] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 15:23:35 Nov 23 2017. AppID: 3000. UID: 10103. PID: 3392 ----
+  INFO root [2017-12-21 10:57:46,250] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [2017-12-21 10:57:46,251] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-12-21 10:57:46,251] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-12-21 10:57:46,390] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-12-21 10:57:46,391] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-12-21 10:57:46,391] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2017-12-21 10:57:46,394] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-12-21 10:57:46,395] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-12-21 10:57:46,395] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-12-21 10:57:46,395] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-12-21 10:57:46,441] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-12-21 10:57:46,477] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-12-21 10:57:46,477] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-12-21 10:57:46,488] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-12-21 10:57:46,499] - TelnetServer server is running on port 33000
+  INFO root [2017-12-21 10:57:46,751] - ---- interfaces is running ----
+ DEBUG root [2017-12-21 10:57:46,752] - Components::process(): Request for the process of identity...
+  INFO root [2017-12-21 10:57:53,840] - Components::process(): Found all the components!
+  WARN root [2017-12-21 10:57:56,227] - TCPPacketReceiver::processPendingEvents(127.0.0.1:1701): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2017-12-21 11:30:57,303] - 
+  INFO root [2017-12-21 11:30:57,304] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-12-21 11:30:57,304] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO root [2017-12-21 11:30:57,305] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO root [2017-12-21 11:30:57,305] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO root [2017-12-21 11:30:57,313] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:30099 )
+  INFO root [2017-12-21 11:30:57,313] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:30099, SOMAXCONN=5.
+  INFO root [2017-12-21 11:30:57,316] - ---- interfaces Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 1ABB6125D8365C3720079E1D4CCC25C7. Config: Debug X86. Built: 15:23:35 Nov 23 2017. AppID: 3000. UID: 10103. PID: 1144 ----
+  INFO root [2017-12-21 11:30:57,317] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO root [2017-12-21 11:30:57,317] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-12-21 11:30:57,319] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-12-21 11:30:57,453] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2017-12-21 11:30:57,454] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2017-12-21 11:30:57,454] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2017-12-21 11:30:57,457] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2017-12-21 11:30:57,458] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2017-12-21 11:30:57,458] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2017-12-21 11:30:57,459] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2017-12-21 11:30:57,497] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2017-12-21 11:30:57,539] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO root [2017-12-21 11:30:57,539] - Script::install(): KBExtra is successfully!
+S_INFO root [2017-12-21 11:30:57,549] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2017-12-21 11:30:57,560] - TelnetServer server is running on port 33000
+  INFO root [2017-12-21 11:30:57,815] - ---- interfaces is running ----
+ DEBUG root [2017-12-21 11:30:57,816] - Components::process(): Request for the process of identity...
+  INFO root [2017-12-21 11:31:04,949] - Components::process(): Found all the components!
+S_INFO root [2017-12-21 11:31:57,682] - onRequestAccountLogin: registerName=qqqqqq
+S_INFO root [2017-12-21 17:02:18,512] - onRequestAccountLogin: registerName=aaaaaa
+  WARN root [2017-12-21 17:02:18,536] - interfaces.cpp:385: Profile scriptCall took 0.11 seconds
+  WARN root [2017-12-21 17:02:18,589] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.22 seconds
+S_INFO root [2017-12-21 17:09:51,206] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590849
+  WARN root [2017-12-21 17:09:51,216] - interfaces.cpp:275: Profile scriptCall took 0.05 seconds
+S_INFO root [2017-12-21 17:09:51,216] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590850
+  WARN root [2017-12-21 17:09:51,284] - interfaces.cpp:275: Profile scriptCall took 0.07 seconds
+S_INFO root [2017-12-21 17:09:51,285] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590851
+S_INFO root [2017-12-21 17:09:51,285] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590852
+S_INFO root [2017-12-21 17:09:51,285] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590848
+S_INFO root [2017-12-21 17:09:51,286] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590857
+  WARN root [2017-12-21 17:09:51,286] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.12 seconds
+S_INFO root [2017-12-21 17:09:51,287] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590853
+S_INFO root [2017-12-21 17:09:51,287] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590854
+S_INFO root [2017-12-21 17:09:51,429] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590855
+S_INFO root [2017-12-21 17:09:51,429] - onRequestCreateAccount: registerName=bot_6501925003001397248_112363595888590856
+  WARN root [2017-12-21 17:09:51,430] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.14 seconds
+S_INFO root [2017-12-21 17:09:51,869] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590852
+S_INFO root [2017-12-21 17:09:51,936] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590849
+S_INFO root [2017-12-21 17:09:51,936] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590850
+S_INFO root [2017-12-21 17:09:51,937] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590851
+S_INFO root [2017-12-21 17:09:52,002] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590848
+  WARN root [2017-12-21 17:09:52,049] - interfaces.cpp:385: Profile scriptCall took 0.05 seconds
+S_INFO root [2017-12-21 17:09:52,049] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590857
+  WARN root [2017-12-21 17:09:52,102] - interfaces.cpp:385: Profile scriptCall took 0.05 seconds
+  WARN root [2017-12-21 17:09:52,103] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.10 seconds
+S_INFO root [2017-12-21 17:09:52,104] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590853
+S_INFO root [2017-12-21 17:09:52,236] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590854
+S_INFO root [2017-12-21 17:09:52,236] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590855
+S_INFO root [2017-12-21 17:09:52,237] - onRequestAccountLogin: registerName=bot_6501925003001397248_112363595888590856
+  WARN root [2017-12-21 18:36:57,892] - TCPPacketReceiver::processPendingEvents(127.0.0.1:2196): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

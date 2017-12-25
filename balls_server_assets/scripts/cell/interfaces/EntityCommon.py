@@ -2,6 +2,7 @@
 import KBEngine
 from KBEDebug import * 
 
+
 TIMER_TYPE_ENTITY_DESTROY = 100
 
 class EntityCommon:

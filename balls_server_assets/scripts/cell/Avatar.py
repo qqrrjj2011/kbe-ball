@@ -2,6 +2,7 @@
 import KBEngine
 from KBEDebug import *
 import GameUtils
+import random
 from interfaces.EntityCommon import EntityCommon
 
 TIMER_TYPE_ADD_TRAP = 1
@@ -18,8 +19,12 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		# 默认开始的尺寸
 		self.modelRadius = 0.5
 
+		# 默认开始大小
+		self.defaultMass = self.mass
+
 		# 随机的初始化一个出生位置
-		self.position = GameUtils.randomPosition3D(self.modelRadius)
+		#self.position = GameUtils.randomPosition3D(self.modelRadius)
+		self.position = GameUtils.randomPosition3DByRange(100,100,20)
 		
 		# self.topSpeedY = 10.0
 		self.getCurrRoom().onEnter(self)
@@ -68,7 +73,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		EntityCommon.onTimer(self, tid, userArg)
 
 		if TIMER_TYPE_ADD_TRAP == userArg:
-			self.addProximity(self.modelRadius, 0, 0)
+			self.addProximity(self.modelScale+0.2, 0, 0)
 
 	def onUpgrade(self):
 		pass
@@ -79,7 +84,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		有entity进入trap
 		"""
 		# 只有玩家实体进入，陷阱才工作
-		if entityEntering.isSmash() or entityEntering.isDestroyed:
+		if entityEntering.isDestroyed:
 			return
 			
 		DEBUG_MSG("%s::onEnterTrap: %i entityEntering=(%s)%i, range_xz=%s, range_y=%s, controllerID=%i, userarg=%i" % \
@@ -88,7 +93,33 @@ class Avatar(KBEngine.Entity, EntityCommon):
 
 		if entityEntering.isAvatar():
 			# 如果对方体积足够被吞嚼则吞掉
-			pass
+			if self.mass /entityEntering.mass >=1:
+				self.addMass(entityEntering.mass)
+				entityEntering.destroy()
+
+		elif entityEntering.isSmash():
+			#玩家分裂成粮食
+			if self.mass > self.defaultMass * 4:
+				radius = 1.0
+				splitMass = self.mass - int(self.mass*0.5)
+				self.addMass(-splitMass)
+				room = self.getCurrRoom()
+				if room:
+					# 最小分裂
+					breakMass = int(splitMass * 0.3)
+
+					maxSplitMass = int(splitMass * 0.3)
+					minRadius = self.modelRadius * self.modelScale
+					while splitMass > breakMass:
+						curMass = splitMass - random.randint(self.defaultMass,splitMass)
+						splitMass = splitMass - curMass
+						pos = GameUtils.randomPosition3DByRange(self.position.x , self.position.z, minRadius, minRadius + 3)
+						self.getCurrRoom().createFood(pos,curMass,radius)
+					if splitMass > 0:
+						pos = GameUtils.randomPosition3DByRange(self.position.x , self.position.z, minRadius, minRadius + 3)
+						self.getCurrRoom().createFood(pos,splitMass,radius)
+
+			entityEntering.destroy()
 		else:
 			# 吃掉粮食
 			self.addMass(entityEntering.mass)
