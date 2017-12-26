@@ -10,7 +10,9 @@ class EntityCommon:
 	服务端游戏对象的基础接口类
 	"""
 	def __init__(self):
-		pass
+		#无敌状态
+		self.isInvincible = False
+		
 
 	def initEntity(self):
 		"""
@@ -91,3 +93,11 @@ class EntityCommon:
 		entity的延时销毁timer
 		"""
 		self.destroy()
+
+	# 无敌状态
+	def setInvincible(self, b):
+		self.isInvincible = b
+	
+	def getInvincible(self):
+		return self.isInvincible
+ 

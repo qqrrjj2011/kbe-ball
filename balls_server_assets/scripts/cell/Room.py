@@ -84,6 +84,17 @@ class Room(KBEngine.Entity):
 		dir = (0.0, 0.0, 0.0)
 		entity = KBEngine.createEntity("Food", self.spaceID, pos, dir, {"modelID" : random.randint(0, 2), "mass" : massNum, "modelRadius" : radius})
 		self.foods.append(entity.id)
+
+	# 创建粮食
+	def createStartMoveFood(self, pos, massNum, radius, minRadius, maxRadius):
+
+		dir = (0.0, 0.0, 0.0)
+		topos = GameUtils.randomPosition3DByRange(pos.x , pos.z, int(minRadius), int(maxRadius))
+		entity = KBEngine.createEntity("Food", self.spaceID, pos, dir, {"modelID" : random.randint(0, 2), "mass" : massNum, "modelRadius" : radius})
+		entity.setInvincible(True)
+		entity.moveToPosition(topos)
+		self.foods.append(entity.id)
+		#my_MSG(">>>>>>>>>>>>>createStartMoveFood oriPos:%i,%i,%i  toPos:%i,%i,%i  minRadius:%i  maxRadius:%i"%(pos.x,pos.y,pos.z,topos.x,topos.y,topos.z, int(minRadius),maxRadius))
 		 
 			
 	#--------------------------------------------------------------------------------------------

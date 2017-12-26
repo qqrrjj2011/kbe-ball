@@ -24,7 +24,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 
 		# 随机的初始化一个出生位置
 		#self.position = GameUtils.randomPosition3D(self.modelRadius)
-		self.position = GameUtils.randomPosition3DByRange(100,100,20)
+		self.position = GameUtils.randomPosition3DByRange(100,100,0,20)
 		
 		# self.topSpeedY = 10.0
 		self.getCurrRoom().onEnter(self)
@@ -98,32 +98,31 @@ class Avatar(KBEngine.Entity, EntityCommon):
 				entityEntering.destroy()
 
 		elif entityEntering.isSmash():
-			#玩家分裂成粮食
-			if self.mass > self.defaultMass * 4:
+			
+			#玩家分裂成粮食.
+			
+			if self.mass > self.defaultMass * 5:
 				radius = 1.0
 				splitMass = self.mass - int(self.mass*0.5)
 				self.addMass(-splitMass)
 				room = self.getCurrRoom()
 				if room:
-					# 最小分裂
-					breakMass = int(splitMass * 0.3)
-
-					maxSplitMass = int(splitMass * 0.3)
+					 
+					maxSplitMass = int(splitMass * 0.5)
 					minRadius = self.modelRadius * self.modelScale
-					while splitMass > breakMass:
-						curMass = splitMass - random.randint(self.defaultMass,splitMass)
+					while splitMass > self.defaultMass:
+						curMass = random.randint(self.defaultMass,splitMass)
 						splitMass = splitMass - curMass
-						pos = GameUtils.randomPosition3DByRange(self.position.x , self.position.z, minRadius, minRadius + 3)
-						self.getCurrRoom().createFood(pos,curMass,radius)
+						self.getCurrRoom().createStartMoveFood(self.position,curMass,radius,minRadius+1,minRadius+5)
 					if splitMass > 0:
-						pos = GameUtils.randomPosition3DByRange(self.position.x , self.position.z, minRadius, minRadius + 3)
-						self.getCurrRoom().createFood(pos,splitMass,radius)
-
+						self.getCurrRoom().createStartMoveFood(self.position,splitMass,radius,minRadius+1,minRadius+5)
+			
 			entityEntering.destroy()
 		else:
 			# 吃掉粮食
-			self.addMass(entityEntering.mass)
-			entityEntering.destroy()
+			if not entityEntering.getInvincible():
+				self.addMass(entityEntering.mass)
+				entityEntering.destroy()
 
 	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):
 		"""

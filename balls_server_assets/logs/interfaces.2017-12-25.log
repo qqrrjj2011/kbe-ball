@@ -480,3 +480,4 @@ S_INFO root [2017-12-25 18:28:30,272] - onInterfaceAppReady: bootstrapGroupIndex
  DEBUG root [2017-12-25 18:28:30,532] - Components::process(): Request for the process of identity...
   INFO root [2017-12-25 18:28:37,706] - Components::process(): Found all the components!
 S_INFO root [2017-12-25 18:28:50,173] - onRequestAccountLogin: registerName=aaaaaa
+  WARN root [2017-12-25 19:25:32,327] - TCPPacketReceiver::processPendingEvents(127.0.0.1:21732): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

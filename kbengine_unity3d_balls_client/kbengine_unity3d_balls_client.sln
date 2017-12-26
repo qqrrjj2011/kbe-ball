@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kbengine_unity3d_balls_client.CSharp.Plugins", "kbengine_unity3d_balls_client.CSharp.Plugins.csproj", "{EBE94666-3E65-1AA2-901E-C0E413DD89CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kbengine_unity3d_balls_client.CSharp", "kbengine_unity3d_balls_client.CSharp.csproj", "{55BDFE45-18E9-2927-24A3-B0A094AD93A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBE94666-3E65-1AA2-901E-C0E413DD89CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE94666-3E65-1AA2-901E-C0E413DD89CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE94666-3E65-1AA2-901E-C0E413DD89CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE94666-3E65-1AA2-901E-C0E413DD89CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BDFE45-18E9-2927-24A3-B0A094AD93A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BDFE45-18E9-2927-24A3-B0A094AD93A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BDFE45-18E9-2927-24A3-B0A094AD93A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BDFE45-18E9-2927-24A3-B0A094AD93A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

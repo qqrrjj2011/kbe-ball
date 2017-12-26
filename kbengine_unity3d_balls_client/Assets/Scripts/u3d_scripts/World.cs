@@ -170,6 +170,9 @@ public class World : MonoBehaviour
             if (entity.className == "Avatar")
             {
                 ((UnityEngine.GameObject)entity.renderObj).GetComponent<GameEntity>().isAvatar = true;
+            }else if(entity.className == "Food")
+            {
+                ((UnityEngine.GameObject)entity.renderObj).GetComponent<GameEntity>().isFood = true;
             }
         }
     }

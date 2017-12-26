@@ -1,418 +1,388 @@
-  INFO [0x00001fd4] [2017-12-25 16:54:09,965] - TelnetServer server is running on port 34000
-  INFO [0x00001fd4] [2017-12-25 16:54:09,967] - ---- logger is running ----
- DEBUG [0x00001fd4] [2017-12-25 16:54:09,967] - Components::process(): Request for the process of identity...
-  INFO [0x00001fd4] [2017-12-25 16:54:16,185] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18105, extaddr:nonsupport, extport:0,  from 192.168.100.93:18109/0/0/0.
-  INFO [0x00001fd4] [2017-12-25 16:54:16,185] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00001fd4] [2017-12-25 16:54:16,185] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00001fd4] [2017-12-25 16:54:16,185] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18108, extaddr:nonsupport, extport:0,  from 192.168.100.93:18110/0/0/0.
-  INFO [0x00001fd4] [2017-12-25 16:54:16,186] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00001fd4] [2017-12-25 16:54:16,186] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18107, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:18111/0/0/0.
-  INFO [0x00001fd4] [2017-12-25 16:54:16,186] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00001fd4] [2017-12-25 16:54:16,186] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18106, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:18112/0/0/0.
-  INFO [0x00001fd4] [2017-12-25 16:54:16,186] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00001fd4] [2017-12-25 16:54:17,185] - Components::process(): Found all the components!
-  INFO [0x00001fd4] [2017-12-25 16:54:19,125] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18104, extaddr:nonsupport, extport:0,  from 192.168.100.93:18126/0/0/0.
-  INFO [0x00001fd4] [2017-12-25 16:54:19,125] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00001fd4] [2017-12-25 16:54:19,725] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18103, extaddr:nonsupport, extport:0,  from 192.168.100.93:18128/0/0/0.
-  INFO [0x00001fd4] [2017-12-25 16:54:19,725] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  WARN [0x00001fd4] [2017-12-25 16:54:32,660] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:33,662] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:34,662] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:35,660] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:36,660] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:37,661] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:38,660] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:41,699] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:42,699] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00001fd4] [2017-12-25 16:54:45,699] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  INFO [0x000022d4] [2017-12-25 16:55:34,868] - 
-  INFO [0x000022d4] [2017-12-25 16:55:34,868] - -----------------------------------------------------------------------------------------
+  INFO [0x000021c0] [2017-12-26 21:11:16,783] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000021c0] [2017-12-26 21:11:16,786] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,958] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,959] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,959] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,963] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,963] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,963] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x000021c0] [2017-12-26 21:11:16,964] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x000021c0] [2017-12-26 21:11:17,019] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x000021c0] [2017-12-26 21:11:17,055] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x000021c0] [2017-12-26 21:11:17,055] - Script::install(): KBExtra is successfully!
+S_INFO [0x000021c0] [2017-12-26 21:11:17,057] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000021c0] [2017-12-26 21:11:17,057] - TelnetServer server is running on port 34000
+  INFO [0x000021c0] [2017-12-26 21:11:17,060] - ---- logger is running ----
+ DEBUG [0x000021c0] [2017-12-26 21:11:17,060] - Components::process(): Request for the process of identity...
+  INFO [0x000021c0] [2017-12-26 21:11:24,258] - Components::process(): Found all the components!
+  INFO [0x0000268c] [2017-12-26 21:12:23,810] - 
+  INFO [0x0000268c] [2017-12-26 21:12:23,810] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x000022d4] [2017-12-25 16:55:34,868] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x000022d4] [2017-12-25 16:55:34,869] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x000022d4] [2017-12-25 16:55:34,869] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x000022d4] [2017-12-25 16:55:34,877] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:18189 )
-  INFO [0x000022d4] [2017-12-25 16:55:34,877] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:18189, SOMAXCONN=5.
-  INFO [0x000022d4] [2017-12-25 16:55:34,879] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:18190 )
-  INFO [0x000022d4] [2017-12-25 16:55:34,879] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:18190, SOMAXCONN=5.
-  INFO [0x000022d4] [2017-12-25 16:55:34,882] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 7736 ----
-  INFO [0x000022d4] [2017-12-25 16:55:34,883] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x000022d4] [2017-12-25 16:55:34,883] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000022d4] [2017-12-25 16:55:34,883] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x000022d4] [2017-12-25 16:55:35,046] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x000022d4] [2017-12-25 16:55:35,047] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x000022d4] [2017-12-25 16:55:35,047] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x000022d4] [2017-12-25 16:55:35,050] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x000022d4] [2017-12-25 16:55:35,050] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x000022d4] [2017-12-25 16:55:35,050] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x000022d4] [2017-12-25 16:55:35,051] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x000022d4] [2017-12-25 16:55:35,095] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x000022d4] [2017-12-25 16:55:35,141] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x000022d4] [2017-12-25 16:55:35,141] - Script::install(): KBExtra is successfully!
-S_INFO [0x000022d4] [2017-12-25 16:55:35,143] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000022d4] [2017-12-25 16:55:35,143] - TelnetServer server is running on port 34000
-  INFO [0x000022d4] [2017-12-25 16:55:35,144] - ---- logger is running ----
- DEBUG [0x000022d4] [2017-12-25 16:55:35,144] - Components::process(): Request for the process of identity...
-  INFO [0x000022d4] [2017-12-25 16:55:41,424] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18193, extaddr:nonsupport, extport:0,  from 192.168.100.93:18198/0/0/0.
-  INFO [0x000022d4] [2017-12-25 16:55:41,424] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x000022d4] [2017-12-25 16:55:41,424] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000022d4] [2017-12-25 16:55:41,424] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18194, extaddr:nonsupport, extport:0,  from 192.168.100.93:18199/0/0/0.
-  INFO [0x000022d4] [2017-12-25 16:55:41,425] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000022d4] [2017-12-25 16:55:41,425] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18195, extaddr:nonsupport, extport:0,  from 192.168.100.93:18200/0/0/0.
-  INFO [0x000022d4] [2017-12-25 16:55:41,425] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000022d4] [2017-12-25 16:55:41,425] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18196, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:18201/0/0/0.
-  INFO [0x000022d4] [2017-12-25 16:55:41,425] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000022d4] [2017-12-25 16:55:41,425] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18197, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:18202/0/0/0.
-  INFO [0x000022d4] [2017-12-25 16:55:41,426] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000022d4] [2017-12-25 16:55:42,443] - Components::process(): Found all the components!
-  INFO [0x000022d4] [2017-12-25 16:55:44,863] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18192, extaddr:nonsupport, extport:0,  from 192.168.100.93:18214/0/0/0.
-  INFO [0x000022d4] [2017-12-25 16:55:44,863] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  WARN [0x000022d4] [2017-12-25 16:56:01,978] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:02,979] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:03,979] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:04,981] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:06,019] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:09,018] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:10,018] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x000022d4] [2017-12-25 16:56:11,019] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  INFO [0x00001c5c] [2017-12-25 16:59:32,893] - 
-  INFO [0x00001c5c] [2017-12-25 16:59:32,894] - -----------------------------------------------------------------------------------------
+  INFO [0x0000268c] [2017-12-26 21:12:23,811] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x0000268c] [2017-12-26 21:12:23,811] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x0000268c] [2017-12-26 21:12:23,811] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x0000268c] [2017-12-26 21:12:23,819] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:41590 )
+  INFO [0x0000268c] [2017-12-26 21:12:23,819] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:41590, SOMAXCONN=5.
+  INFO [0x0000268c] [2017-12-26 21:12:23,821] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:41591 )
+  INFO [0x0000268c] [2017-12-26 21:12:23,821] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:41591, SOMAXCONN=5.
+  INFO [0x0000268c] [2017-12-26 21:12:23,825] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 9492 ----
+  INFO [0x0000268c] [2017-12-26 21:12:23,825] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x0000268c] [2017-12-26 21:12:23,825] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000268c] [2017-12-26 21:12:23,826] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,958] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,958] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,958] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,962] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,962] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,962] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x0000268c] [2017-12-26 21:12:23,963] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x0000268c] [2017-12-26 21:12:24,009] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x0000268c] [2017-12-26 21:12:24,043] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x0000268c] [2017-12-26 21:12:24,043] - Script::install(): KBExtra is successfully!
+S_INFO [0x0000268c] [2017-12-26 21:12:24,045] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000268c] [2017-12-26 21:12:24,045] - TelnetServer server is running on port 34000
+  INFO [0x0000268c] [2017-12-26 21:12:24,046] - ---- logger is running ----
+ DEBUG [0x0000268c] [2017-12-26 21:12:24,046] - Components::process(): Request for the process of identity...
+  INFO [0x0000268c] [2017-12-26 21:12:30,145] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:41598, extaddr:nonsupport, extport:0,  from 192.168.100.93:41603/0/0/0.
+  INFO [0x0000268c] [2017-12-26 21:12:30,145] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x0000268c] [2017-12-26 21:12:30,146] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000268c] [2017-12-26 21:12:30,146] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:41599, extaddr:nonsupport, extport:0,  from 192.168.100.93:41604/0/0/0.
+  INFO [0x0000268c] [2017-12-26 21:12:30,146] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000268c] [2017-12-26 21:12:30,146] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:41601, extaddr:nonsupport, extport:0,  from 192.168.100.93:41605/0/0/0.
+  INFO [0x0000268c] [2017-12-26 21:12:30,146] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000268c] [2017-12-26 21:12:30,146] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:41602, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:41606/0/0/0.
+  INFO [0x0000268c] [2017-12-26 21:12:30,147] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x0000268c] [2017-12-26 21:12:30,147] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:41600, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:41607/0/0/0.
+  INFO [0x0000268c] [2017-12-26 21:12:30,147] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x0000268c] [2017-12-26 21:12:31,156] - Components::process(): Found all the components!
+  INFO [0x0000268c] [2017-12-26 21:12:33,746] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:41597, extaddr:nonsupport, extport:0,  from 192.168.100.93:41666/0/0/0.
+  INFO [0x0000268c] [2017-12-26 21:12:33,746] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x0000268c] [2017-12-26 21:12:47,726] - Logger::registerLogWatcher: addr=192.168.100.93:41760 is successfully!
+  WARN [0x0000268c] [2017-12-26 21:13:02,228] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:03,222] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:04,259] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:05,260] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:06,260] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:07,258] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:08,258] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:09,289] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:11,294] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:12,282] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:13,281] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:14,292] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:15,291] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x0000268c] [2017-12-26 21:13:16,283] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  INFO [0x00002778] [2017-12-26 21:19:49,683] - 
+  INFO [0x00002778] [2017-12-26 21:19:49,683] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00001c5c] [2017-12-25 16:59:32,894] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x00001c5c] [2017-12-25 16:59:32,894] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x00001c5c] [2017-12-25 16:59:32,894] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x00001c5c] [2017-12-25 16:59:32,902] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:18350 )
-  INFO [0x00001c5c] [2017-12-25 16:59:32,902] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:18350, SOMAXCONN=5.
-  INFO [0x00001c5c] [2017-12-25 16:59:32,904] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:18351 )
-  INFO [0x00001c5c] [2017-12-25 16:59:32,904] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:18351, SOMAXCONN=5.
-  INFO [0x00001c5c] [2017-12-25 16:59:32,908] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 7472 ----
-  INFO [0x00001c5c] [2017-12-25 16:59:32,908] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x00001c5c] [2017-12-25 16:59:32,908] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00001c5c] [2017-12-25 16:59:32,909] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,045] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,045] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,046] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,049] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,049] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,049] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,049] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,094] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x00001c5c] [2017-12-25 16:59:33,138] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x00001c5c] [2017-12-25 16:59:33,138] - Script::install(): KBExtra is successfully!
-S_INFO [0x00001c5c] [2017-12-25 16:59:33,140] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00001c5c] [2017-12-25 16:59:33,141] - TelnetServer server is running on port 34000
-  INFO [0x00001c5c] [2017-12-25 16:59:33,141] - ---- logger is running ----
- DEBUG [0x00001c5c] [2017-12-25 16:59:33,142] - Components::process(): Request for the process of identity...
-  INFO [0x00001c5c] [2017-12-25 16:59:39,242] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18355, extaddr:nonsupport, extport:0,  from 192.168.100.93:18359/0/0/0.
-  INFO [0x00001c5c] [2017-12-25 16:59:39,242] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00001c5c] [2017-12-25 16:59:39,242] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00001c5c] [2017-12-25 16:59:39,242] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18354, extaddr:nonsupport, extport:0,  from 192.168.100.93:18360/0/0/0.
-  INFO [0x00001c5c] [2017-12-25 16:59:39,243] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00001c5c] [2017-12-25 16:59:39,243] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18358, extaddr:nonsupport, extport:0,  from 192.168.100.93:18361/0/0/0.
-  INFO [0x00001c5c] [2017-12-25 16:59:39,243] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00001c5c] [2017-12-25 16:59:39,243] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18357, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:18362/0/0/0.
-  INFO [0x00001c5c] [2017-12-25 16:59:39,243] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00001c5c] [2017-12-25 16:59:39,243] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18356, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:18363/0/0/0.
-  INFO [0x00001c5c] [2017-12-25 16:59:39,244] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00001c5c] [2017-12-25 16:59:40,238] - Components::process(): Found all the components!
-  INFO [0x00001c5c] [2017-12-25 16:59:42,962] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:18352, extaddr:nonsupport, extport:0,  from 192.168.100.93:18375/0/0/0.
-  INFO [0x00001c5c] [2017-12-25 16:59:42,962] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  WARN [0x00001c5c] [2017-12-25 17:15:06,968] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:07,965] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:08,966] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:10,011] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:10,965] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:11,966] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:12,965] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:14,006] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:16,006] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00001c5c] [2017-12-25 17:15:17,025] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  INFO [0x0000225c] [2017-12-25 17:16:15,552] - 
-  INFO [0x0000225c] [2017-12-25 17:16:15,552] - -----------------------------------------------------------------------------------------
+  INFO [0x00002778] [2017-12-26 21:19:49,684] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x00002778] [2017-12-26 21:19:49,684] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x00002778] [2017-12-26 21:19:49,684] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x00002778] [2017-12-26 21:19:49,693] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:43966 )
+  INFO [0x00002778] [2017-12-26 21:19:49,693] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:43966, SOMAXCONN=5.
+  INFO [0x00002778] [2017-12-26 21:19:49,695] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:43967 )
+  INFO [0x00002778] [2017-12-26 21:19:49,695] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:43967, SOMAXCONN=5.
+  INFO [0x00002778] [2017-12-26 21:19:49,700] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 9728 ----
+  INFO [0x00002778] [2017-12-26 21:19:49,700] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x00002778] [2017-12-26 21:19:49,700] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00002778] [2017-12-26 21:19:49,700] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00002778] [2017-12-26 21:19:49,834] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00002778] [2017-12-26 21:19:49,835] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00002778] [2017-12-26 21:19:49,835] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00002778] [2017-12-26 21:19:49,838] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00002778] [2017-12-26 21:19:49,839] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00002778] [2017-12-26 21:19:49,839] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00002778] [2017-12-26 21:19:49,840] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00002778] [2017-12-26 21:19:49,875] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00002778] [2017-12-26 21:19:49,911] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00002778] [2017-12-26 21:19:49,911] - Script::install(): KBExtra is successfully!
+S_INFO [0x00002778] [2017-12-26 21:19:49,913] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00002778] [2017-12-26 21:19:49,914] - TelnetServer server is running on port 34000
+  INFO [0x00002778] [2017-12-26 21:19:49,914] - ---- logger is running ----
+ DEBUG [0x00002778] [2017-12-26 21:19:49,914] - Components::process(): Request for the process of identity...
+  INFO [0x00002778] [2017-12-26 21:19:56,035] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:43971, extaddr:nonsupport, extport:0,  from 192.168.100.93:43973/0/0/0.
+  INFO [0x00002778] [2017-12-26 21:19:56,035] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00002778] [2017-12-26 21:19:56,035] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00002778] [2017-12-26 21:19:56,035] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:43986, extaddr:nonsupport, extport:0,  from 192.168.100.93:43988/0/0/0.
+  INFO [0x00002778] [2017-12-26 21:19:56,036] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00002778] [2017-12-26 21:19:56,036] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:43987, extaddr:nonsupport, extport:0,  from 192.168.100.93:43989/0/0/0.
+  INFO [0x00002778] [2017-12-26 21:19:56,036] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00002778] [2017-12-26 21:19:56,036] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:44003, extaddr:nonsupport, extport:0,  from 192.168.100.93:44004/0/0/0.
+  INFO [0x00002778] [2017-12-26 21:19:56,036] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00002778] [2017-12-26 21:19:56,036] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:44002, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:44005/0/0/0.
+  INFO [0x00002778] [2017-12-26 21:19:56,037] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00002778] [2017-12-26 21:19:56,355] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:44006, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:44032/0/0/0.
+  INFO [0x00002778] [2017-12-26 21:19:56,355] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00002778] [2017-12-26 21:19:57,048] - Components::process(): Found all the components!
+  WARN [0x00002778] [2017-12-26 21:20:14,331] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00002778] [2017-12-26 21:20:15,333] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00002778] [2017-12-26 21:20:16,329] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00002778] [2017-12-26 21:20:17,338] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00002778] [2017-12-26 21:20:26,389] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  INFO [0x00002778] [2017-12-26 21:20:32,555] - Logger::registerLogWatcher: addr=192.168.100.93:44249 is successfully!
+  INFO [0x00000bcc] [2017-12-26 21:29:58,232] - 
+  INFO [0x00000bcc] [2017-12-26 21:29:58,232] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x0000225c] [2017-12-25 17:16:15,553] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x0000225c] [2017-12-25 17:16:15,553] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x0000225c] [2017-12-25 17:16:15,553] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x0000225c] [2017-12-25 17:16:15,560] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:19003 )
-  INFO [0x0000225c] [2017-12-25 17:16:15,560] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:19003, SOMAXCONN=5.
-  INFO [0x0000225c] [2017-12-25 17:16:15,562] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:19004 )
-  INFO [0x0000225c] [2017-12-25 17:16:15,562] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:19004, SOMAXCONN=5.
-  INFO [0x0000225c] [2017-12-25 17:16:15,567] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 7676 ----
-  INFO [0x0000225c] [2017-12-25 17:16:15,567] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x0000225c] [2017-12-25 17:16:15,568] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x0000225c] [2017-12-25 17:16:15,568] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x0000225c] [2017-12-25 17:16:15,723] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x0000225c] [2017-12-25 17:16:15,724] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x0000225c] [2017-12-25 17:16:15,724] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x0000225c] [2017-12-25 17:16:15,727] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x0000225c] [2017-12-25 17:16:15,727] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x0000225c] [2017-12-25 17:16:15,728] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x0000225c] [2017-12-25 17:16:15,728] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x0000225c] [2017-12-25 17:16:15,788] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x0000225c] [2017-12-25 17:16:15,828] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x0000225c] [2017-12-25 17:16:15,828] - Script::install(): KBExtra is successfully!
-S_INFO [0x0000225c] [2017-12-25 17:16:15,830] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x0000225c] [2017-12-25 17:16:15,830] - TelnetServer server is running on port 34000
-  INFO [0x0000225c] [2017-12-25 17:16:15,831] - ---- logger is running ----
- DEBUG [0x0000225c] [2017-12-25 17:16:15,831] - Components::process(): Request for the process of identity...
-  INFO [0x0000225c] [2017-12-25 17:16:21,990] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19007, extaddr:nonsupport, extport:0,  from 192.168.100.93:19009/0/0/0.
-  INFO [0x0000225c] [2017-12-25 17:16:21,990] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x0000225c] [2017-12-25 17:16:21,990] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x0000225c] [2017-12-25 17:16:21,990] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19013, extaddr:nonsupport, extport:0,  from 192.168.100.93:19015/0/0/0.
-  INFO [0x0000225c] [2017-12-25 17:16:21,991] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x0000225c] [2017-12-25 17:16:21,991] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19016, extaddr:nonsupport, extport:0,  from 192.168.100.93:19019/0/0/0.
-  INFO [0x0000225c] [2017-12-25 17:16:21,991] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x0000225c] [2017-12-25 17:16:21,991] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19017, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:19026/0/0/0.
-  INFO [0x0000225c] [2017-12-25 17:16:21,991] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000225c] [2017-12-25 17:16:21,991] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19028, extaddr:nonsupport, extport:0,  from 192.168.100.93:19029/0/0/0.
-  INFO [0x0000225c] [2017-12-25 17:16:21,992] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x0000225c] [2017-12-25 17:16:22,390] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19030, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:19036/0/0/0.
-  INFO [0x0000225c] [2017-12-25 17:16:22,390] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x0000225c] [2017-12-25 17:16:22,997] - Components::process(): Found all the components!
-  WARN [0x0000225c] [2017-12-25 17:16:52,464] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x0000225c] [2017-12-25 17:16:54,464] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x0000225c] [2017-12-25 17:16:55,464] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x0000225c] [2017-12-25 17:17:02,503] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x0000225c] [2017-12-25 17:17:03,504] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x0000225c] [2017-12-25 17:17:04,503] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x0000225c] [2017-12-25 17:17:06,505] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  INFO [0x000018d4] [2017-12-25 17:18:46,104] - 
-  INFO [0x000018d4] [2017-12-25 17:18:46,104] - -----------------------------------------------------------------------------------------
+  INFO [0x00000bcc] [2017-12-26 21:29:58,233] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x00000bcc] [2017-12-26 21:29:58,233] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x00000bcc] [2017-12-26 21:29:58,233] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x00000bcc] [2017-12-26 21:29:58,240] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:47181 )
+  INFO [0x00000bcc] [2017-12-26 21:29:58,240] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:47181, SOMAXCONN=5.
+  INFO [0x00000bcc] [2017-12-26 21:29:58,242] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:47182 )
+  INFO [0x00000bcc] [2017-12-26 21:29:58,242] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:47182, SOMAXCONN=5.
+  INFO [0x00000bcc] [2017-12-26 21:29:58,247] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 6960 ----
+  INFO [0x00000bcc] [2017-12-26 21:29:58,247] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x00000bcc] [2017-12-26 21:29:58,248] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00000bcc] [2017-12-26 21:29:58,248] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,383] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,384] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,384] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,387] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,388] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,388] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,388] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,424] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00000bcc] [2017-12-26 21:29:58,460] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00000bcc] [2017-12-26 21:29:58,460] - Script::install(): KBExtra is successfully!
+S_INFO [0x00000bcc] [2017-12-26 21:29:58,462] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00000bcc] [2017-12-26 21:29:58,462] - TelnetServer server is running on port 34000
+  INFO [0x00000bcc] [2017-12-26 21:29:58,463] - ---- logger is running ----
+ DEBUG [0x00000bcc] [2017-12-26 21:29:58,463] - Components::process(): Request for the process of identity...
+  INFO [0x00000bcc] [2017-12-26 21:30:04,603] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47185, extaddr:nonsupport, extport:0,  from 192.168.100.93:47187/0/0/0.
+  INFO [0x00000bcc] [2017-12-26 21:30:04,603] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00000bcc] [2017-12-26 21:30:04,603] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00000bcc] [2017-12-26 21:30:04,603] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47191, extaddr:nonsupport, extport:0,  from 192.168.100.93:47195/0/0/0.
+  INFO [0x00000bcc] [2017-12-26 21:30:04,604] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00000bcc] [2017-12-26 21:30:04,604] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47186, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:47196/0/0/0.
+  INFO [0x00000bcc] [2017-12-26 21:30:04,604] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00000bcc] [2017-12-26 21:30:04,604] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47194, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:47198/0/0/0.
+  INFO [0x00000bcc] [2017-12-26 21:30:04,604] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00000bcc] [2017-12-26 21:30:05,596] - Components::process(): Found all the components!
+  INFO [0x00000bcc] [2017-12-26 21:30:07,444] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47184, extaddr:nonsupport, extport:0,  from 192.168.100.93:47245/0/0/0.
+  INFO [0x00000bcc] [2017-12-26 21:30:07,444] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00000bcc] [2017-12-26 21:30:08,243] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47183, extaddr:nonsupport, extport:0,  from 192.168.100.93:47251/0/0/0.
+  INFO [0x00000bcc] [2017-12-26 21:30:08,243] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:10,784] - 
+  INFO [0x00001440] [2017-12-26 21:30:10,785] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x000018d4] [2017-12-25 17:18:46,105] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x000018d4] [2017-12-25 17:18:46,105] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x000018d4] [2017-12-25 17:18:46,105] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x000018d4] [2017-12-25 17:18:46,114] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:19129 )
-  INFO [0x000018d4] [2017-12-25 17:18:46,114] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:19129, SOMAXCONN=5.
-  INFO [0x000018d4] [2017-12-25 17:18:46,117] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:19130 )
-  INFO [0x000018d4] [2017-12-25 17:18:46,117] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:19130, SOMAXCONN=5.
-  INFO [0x000018d4] [2017-12-25 17:18:46,121] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 8388 ----
-  INFO [0x000018d4] [2017-12-25 17:18:46,121] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x000018d4] [2017-12-25 17:18:46,121] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000018d4] [2017-12-25 17:18:46,121] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x000018d4] [2017-12-25 17:18:46,269] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x000018d4] [2017-12-25 17:18:46,269] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x000018d4] [2017-12-25 17:18:46,270] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x000018d4] [2017-12-25 17:18:46,273] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x000018d4] [2017-12-25 17:18:46,273] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x000018d4] [2017-12-25 17:18:46,274] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x000018d4] [2017-12-25 17:18:46,274] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x000018d4] [2017-12-25 17:18:46,313] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x000018d4] [2017-12-25 17:18:46,389] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x000018d4] [2017-12-25 17:18:46,389] - Script::install(): KBExtra is successfully!
-S_INFO [0x000018d4] [2017-12-25 17:18:46,391] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000018d4] [2017-12-25 17:18:46,391] - TelnetServer server is running on port 34000
-  INFO [0x000018d4] [2017-12-25 17:18:46,392] - ---- logger is running ----
- DEBUG [0x000018d4] [2017-12-25 17:18:46,392] - Components::process(): Request for the process of identity...
-  INFO [0x000018d4] [2017-12-25 17:18:52,633] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19132, extaddr:nonsupport, extport:0,  from 192.168.100.93:19138/0/0/0.
-  INFO [0x000018d4] [2017-12-25 17:18:52,633] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x000018d4] [2017-12-25 17:18:52,633] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000018d4] [2017-12-25 17:18:52,633] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19136, extaddr:nonsupport, extport:0,  from 192.168.100.93:19139/0/0/0.
-  INFO [0x000018d4] [2017-12-25 17:18:52,634] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000018d4] [2017-12-25 17:18:52,634] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19133, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:19140/0/0/0.
-  INFO [0x000018d4] [2017-12-25 17:18:52,634] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000018d4] [2017-12-25 17:18:52,634] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19137, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:19141/0/0/0.
-  INFO [0x000018d4] [2017-12-25 17:18:52,634] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000018d4] [2017-12-25 17:18:53,636] - Components::process(): Found all the components!
-  INFO [0x000018d4] [2017-12-25 17:18:56,053] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19134, extaddr:nonsupport, extport:0,  from 192.168.100.93:19154/0/0/0.
-  INFO [0x000018d4] [2017-12-25 17:18:56,053] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000018d4] [2017-12-25 17:18:56,053] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:19131, extaddr:nonsupport, extport:0,  from 192.168.100.93:19155/0/0/0.
-  INFO [0x000018d4] [2017-12-25 17:18:56,053] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:50,183] - 
-  INFO [0x00000afc] [2017-12-25 18:10:50,183] - -----------------------------------------------------------------------------------------
+  INFO [0x00001440] [2017-12-26 21:30:10,785] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x00001440] [2017-12-26 21:30:10,785] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x00001440] [2017-12-26 21:30:10,785] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x00001440] [2017-12-26 21:30:10,794] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:47263 )
+  INFO [0x00001440] [2017-12-26 21:30:10,794] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:47263, SOMAXCONN=5.
+  INFO [0x00001440] [2017-12-26 21:30:10,796] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:47264 )
+  INFO [0x00001440] [2017-12-26 21:30:10,796] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:47264, SOMAXCONN=5.
+  INFO [0x00001440] [2017-12-26 21:30:10,799] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 4284 ----
+  INFO [0x00001440] [2017-12-26 21:30:10,800] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x00001440] [2017-12-26 21:30:10,800] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001440] [2017-12-26 21:30:10,800] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00001440] [2017-12-26 21:30:10,938] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00001440] [2017-12-26 21:30:10,938] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00001440] [2017-12-26 21:30:10,938] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00001440] [2017-12-26 21:30:10,942] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00001440] [2017-12-26 21:30:10,942] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00001440] [2017-12-26 21:30:10,942] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00001440] [2017-12-26 21:30:10,943] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00001440] [2017-12-26 21:30:10,977] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00001440] [2017-12-26 21:30:11,012] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00001440] [2017-12-26 21:30:11,012] - Script::install(): KBExtra is successfully!
+S_INFO [0x00001440] [2017-12-26 21:30:11,014] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001440] [2017-12-26 21:30:11,014] - TelnetServer server is running on port 34000
+  INFO [0x00001440] [2017-12-26 21:30:11,015] - ---- logger is running ----
+ DEBUG [0x00001440] [2017-12-26 21:30:11,015] - Components::process(): Request for the process of identity...
+  INFO [0x00001440] [2017-12-26 21:30:17,135] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47271, extaddr:nonsupport, extport:0,  from 192.168.100.93:47275/0/0/0.
+  INFO [0x00001440] [2017-12-26 21:30:17,135] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00001440] [2017-12-26 21:30:17,135] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:17,135] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47272, extaddr:nonsupport, extport:0,  from 192.168.100.93:47276/0/0/0.
+  INFO [0x00001440] [2017-12-26 21:30:17,136] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:17,136] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47273, extaddr:nonsupport, extport:0,  from 192.168.100.93:47278/0/0/0.
+  INFO [0x00001440] [2017-12-26 21:30:17,136] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:17,136] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47279, extaddr:nonsupport, extport:0,  from 192.168.100.93:47281/0/0/0.
+  INFO [0x00001440] [2017-12-26 21:30:17,136] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:17,136] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47280, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:47283/0/0/0.
+  INFO [0x00001440] [2017-12-26 21:30:17,137] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:17,555] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:47274, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:47321/0/0/0.
+  INFO [0x00001440] [2017-12-26 21:30:17,555] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00001440] [2017-12-26 21:30:18,148] - Components::process(): Found all the components!
+  INFO [0x00001440] [2017-12-26 21:30:28,695] - Logger::registerLogWatcher: addr=192.168.100.93:47399 is successfully!
+  WARN [0x00001440] [2017-12-26 21:30:44,525] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x00001440] [2017-12-26 21:30:45,541] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  WARN [0x00001440] [2017-12-26 21:30:46,542] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  WARN [0x00001440] [2017-12-26 21:30:47,591] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.07 seconds
+  WARN [0x00001440] [2017-12-26 21:30:48,589] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x00001440] [2017-12-26 21:30:49,574] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  WARN [0x00001440] [2017-12-26 21:30:50,575] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001440] [2017-12-26 21:30:51,630] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x00001440] [2017-12-26 21:30:52,680] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001440] [2017-12-26 21:30:53,586] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x00001440] [2017-12-26 21:30:54,643] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001440] [2017-12-26 21:30:55,655] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.12 seconds
+  WARN [0x00001440] [2017-12-26 21:30:56,600] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.07 seconds
+  WARN [0x00001440] [2017-12-26 21:30:57,579] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001440] [2017-12-26 21:30:58,742] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  INFO [0x000019d8] [2017-12-26 21:37:33,644] - 
+  INFO [0x000019d8] [2017-12-26 21:37:33,644] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00000afc] [2017-12-25 18:10:50,184] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x00000afc] [2017-12-25 18:10:50,184] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x00000afc] [2017-12-25 18:10:50,184] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x00000afc] [2017-12-25 18:10:50,193] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20896 )
-  INFO [0x00000afc] [2017-12-25 18:10:50,193] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:20896, SOMAXCONN=5.
-  INFO [0x00000afc] [2017-12-25 18:10:50,195] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:20897 )
-  INFO [0x00000afc] [2017-12-25 18:10:50,195] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:20897, SOMAXCONN=5.
-  INFO [0x00000afc] [2017-12-25 18:10:50,199] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 8352 ----
-  INFO [0x00000afc] [2017-12-25 18:10:50,199] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x00000afc] [2017-12-25 18:10:50,199] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00000afc] [2017-12-25 18:10:50,199] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x00000afc] [2017-12-25 18:10:50,333] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x00000afc] [2017-12-25 18:10:50,334] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x00000afc] [2017-12-25 18:10:50,334] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x00000afc] [2017-12-25 18:10:50,337] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x00000afc] [2017-12-25 18:10:50,337] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x00000afc] [2017-12-25 18:10:50,337] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x00000afc] [2017-12-25 18:10:50,338] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x00000afc] [2017-12-25 18:10:50,372] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x00000afc] [2017-12-25 18:10:50,409] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x00000afc] [2017-12-25 18:10:50,409] - Script::install(): KBExtra is successfully!
-S_INFO [0x00000afc] [2017-12-25 18:10:50,411] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00000afc] [2017-12-25 18:10:50,412] - TelnetServer server is running on port 34000
-  INFO [0x00000afc] [2017-12-25 18:10:50,412] - ---- logger is running ----
- DEBUG [0x00000afc] [2017-12-25 18:10:50,412] - Components::process(): Request for the process of identity...
-  INFO [0x00000afc] [2017-12-25 18:10:56,512] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:20899, extaddr:nonsupport, extport:0,  from 192.168.100.93:20900/0/0/0.
-  INFO [0x00000afc] [2017-12-25 18:10:56,512] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00000afc] [2017-12-25 18:10:56,512] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:56,512] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:20905, extaddr:nonsupport, extport:0,  from 192.168.100.93:20906/0/0/0.
-  INFO [0x00000afc] [2017-12-25 18:10:56,513] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:56,513] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:20907, extaddr:nonsupport, extport:0,  from 192.168.100.93:20910/0/0/0.
-  INFO [0x00000afc] [2017-12-25 18:10:56,513] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:56,513] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:20920, extaddr:nonsupport, extport:0,  from 192.168.100.93:20921/0/0/0.
-  INFO [0x00000afc] [2017-12-25 18:10:56,513] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:56,513] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:20918, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:20922/0/0/0.
-  INFO [0x00000afc] [2017-12-25 18:10:56,514] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:56,852] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:20923, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:20929/0/0/0.
-  INFO [0x00000afc] [2017-12-25 18:10:56,852] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00000afc] [2017-12-25 18:10:57,532] - Components::process(): Found all the components!
-  WARN [0x00000afc] [2017-12-25 18:11:48,528] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00000afc] [2017-12-25 18:11:49,527] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00000afc] [2017-12-25 18:11:50,531] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00000afc] [2017-12-25 18:11:55,548] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00000afc] [2017-12-25 18:11:56,567] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00000afc] [2017-12-25 18:11:57,588] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00000afc] [2017-12-25 18:12:00,547] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00000afc] [2017-12-25 18:12:11,993] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
-  WARN [0x00000afc] [2017-12-25 18:12:12,264] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.27 seconds
-  WARN [0x00000afc] [2017-12-25 18:12:13,447] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.17 seconds
-  WARN [0x00000afc] [2017-12-25 18:12:15,485] - event_dispatcher.cpp:171: Profile callSystemTimers took 2.02 seconds
-  INFO [0x00002330] [2017-12-25 18:22:44,754] - 
-  INFO [0x00002330] [2017-12-25 18:22:44,755] - -----------------------------------------------------------------------------------------
+  INFO [0x000019d8] [2017-12-26 21:37:33,645] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x000019d8] [2017-12-26 21:37:33,645] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x000019d8] [2017-12-26 21:37:33,645] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x000019d8] [2017-12-26 21:37:33,652] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:49616 )
+  INFO [0x000019d8] [2017-12-26 21:37:33,652] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:49616, SOMAXCONN=5.
+  INFO [0x000019d8] [2017-12-26 21:37:33,654] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:49617 )
+  INFO [0x000019d8] [2017-12-26 21:37:33,655] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:49617, SOMAXCONN=5.
+  INFO [0x000019d8] [2017-12-26 21:37:33,658] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 2756 ----
+  INFO [0x000019d8] [2017-12-26 21:37:33,659] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x000019d8] [2017-12-26 21:37:33,659] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000019d8] [2017-12-26 21:37:33,659] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,796] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,797] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,797] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,800] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,801] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,801] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,802] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,838] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x000019d8] [2017-12-26 21:37:33,876] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x000019d8] [2017-12-26 21:37:33,876] - Script::install(): KBExtra is successfully!
+S_INFO [0x000019d8] [2017-12-26 21:37:33,880] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000019d8] [2017-12-26 21:37:33,880] - TelnetServer server is running on port 34000
+  INFO [0x000019d8] [2017-12-26 21:37:33,881] - ---- logger is running ----
+ DEBUG [0x000019d8] [2017-12-26 21:37:33,881] - Components::process(): Request for the process of identity...
+  INFO [0x000019d8] [2017-12-26 21:37:39,960] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:49621, extaddr:nonsupport, extport:0,  from 192.168.100.93:49622/0/0/0.
+  INFO [0x000019d8] [2017-12-26 21:37:39,960] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x000019d8] [2017-12-26 21:37:39,960] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000019d8] [2017-12-26 21:37:39,960] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:49624, extaddr:nonsupport, extport:0,  from 192.168.100.93:49626/0/0/0.
+  INFO [0x000019d8] [2017-12-26 21:37:39,960] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000019d8] [2017-12-26 21:37:39,961] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:49623, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:49633/0/0/0.
+  INFO [0x000019d8] [2017-12-26 21:37:39,961] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000019d8] [2017-12-26 21:37:39,961] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:49625, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:49634/0/0/0.
+  INFO [0x000019d8] [2017-12-26 21:37:39,961] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000019d8] [2017-12-26 21:37:40,948] - Components::process(): Found all the components!
+  INFO [0x000019d8] [2017-12-26 21:37:41,201] - Logger::registerLogWatcher: addr=192.168.100.93:49688 is successfully!
+  INFO [0x000019d8] [2017-12-26 21:37:43,021] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:49620, extaddr:nonsupport, extport:0,  from 192.168.100.93:49700/0/0/0.
+  INFO [0x000019d8] [2017-12-26 21:37:43,021] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000019d8] [2017-12-26 21:37:43,821] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:49619, extaddr:nonsupport, extport:0,  from 192.168.100.93:49706/0/0/0.
+  INFO [0x000019d8] [2017-12-26 21:37:43,821] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x000019d8] [2017-12-26 21:38:07,400] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:08,394] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:09,389] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:10,394] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:11,398] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:12,392] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:13,390] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:14,386] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:15,390] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:16,420] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:17,414] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:18,417] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:19,413] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x000019d8] [2017-12-26 21:38:20,408] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  INFO [0x00001664] [2017-12-26 21:41:51,744] - 
+  INFO [0x00001664] [2017-12-26 21:41:51,744] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00002330] [2017-12-25 18:22:44,755] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x00002330] [2017-12-25 18:22:44,755] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x00002330] [2017-12-25 18:22:44,755] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x00002330] [2017-12-25 18:22:44,763] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:21456 )
-  INFO [0x00002330] [2017-12-25 18:22:44,763] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:21456, SOMAXCONN=5.
-  INFO [0x00002330] [2017-12-25 18:22:44,765] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:21457 )
-  INFO [0x00002330] [2017-12-25 18:22:44,765] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:21457, SOMAXCONN=5.
-  INFO [0x00002330] [2017-12-25 18:22:44,769] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 9060 ----
-  INFO [0x00002330] [2017-12-25 18:22:44,770] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x00002330] [2017-12-25 18:22:44,774] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00002330] [2017-12-25 18:22:44,775] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x00002330] [2017-12-25 18:22:44,909] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x00002330] [2017-12-25 18:22:44,909] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x00002330] [2017-12-25 18:22:44,910] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x00002330] [2017-12-25 18:22:44,913] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x00002330] [2017-12-25 18:22:44,913] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x00002330] [2017-12-25 18:22:44,913] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x00002330] [2017-12-25 18:22:44,914] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x00002330] [2017-12-25 18:22:44,951] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x00002330] [2017-12-25 18:22:44,989] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x00002330] [2017-12-25 18:22:44,989] - Script::install(): KBExtra is successfully!
-S_INFO [0x00002330] [2017-12-25 18:22:44,991] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00002330] [2017-12-25 18:22:44,992] - TelnetServer server is running on port 34000
-  INFO [0x00002330] [2017-12-25 18:22:44,992] - ---- logger is running ----
- DEBUG [0x00002330] [2017-12-25 18:22:44,992] - Components::process(): Request for the process of identity...
-  INFO [0x00002330] [2017-12-25 18:22:51,092] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21459, extaddr:nonsupport, extport:0,  from 192.168.100.93:21463/0/0/0.
-  INFO [0x00002330] [2017-12-25 18:22:51,092] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00002330] [2017-12-25 18:22:51,092] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00002330] [2017-12-25 18:22:51,092] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21460, extaddr:nonsupport, extport:0,  from 192.168.100.93:21464/0/0/0.
-  INFO [0x00002330] [2017-12-25 18:22:51,093] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00002330] [2017-12-25 18:22:51,093] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21462, extaddr:nonsupport, extport:0,  from 192.168.100.93:21466/0/0/0.
-  INFO [0x00002330] [2017-12-25 18:22:51,093] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00002330] [2017-12-25 18:22:51,093] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21465, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:21468/0/0/0.
-  INFO [0x00002330] [2017-12-25 18:22:51,093] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00002330] [2017-12-25 18:22:51,093] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21461, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:21469/0/0/0.
-  INFO [0x00002330] [2017-12-25 18:22:51,094] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00002330] [2017-12-25 18:22:52,092] - Components::process(): Found all the components!
-  INFO [0x00002330] [2017-12-25 18:22:54,672] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21458, extaddr:nonsupport, extport:0,  from 192.168.100.93:21481/0/0/0.
-  INFO [0x00002330] [2017-12-25 18:22:54,672] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  WARN [0x00002330] [2017-12-25 18:23:38,687] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00002330] [2017-12-25 18:23:39,687] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00002330] [2017-12-25 18:23:41,697] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
-  WARN [0x00002330] [2017-12-25 18:23:42,687] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00002330] [2017-12-25 18:23:45,686] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x00002330] [2017-12-25 18:23:52,746] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  INFO [0x00001dfc] [2017-12-25 18:25:29,828] - 
-  INFO [0x00001dfc] [2017-12-25 18:25:29,828] - -----------------------------------------------------------------------------------------
+  INFO [0x00001664] [2017-12-26 21:41:51,745] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x00001664] [2017-12-26 21:41:51,745] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x00001664] [2017-12-26 21:41:51,745] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x00001664] [2017-12-26 21:41:51,753] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:51024 )
+  INFO [0x00001664] [2017-12-26 21:41:51,754] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:51024, SOMAXCONN=5.
+  INFO [0x00001664] [2017-12-26 21:41:51,755] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:51025 )
+  INFO [0x00001664] [2017-12-26 21:41:51,755] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:51025, SOMAXCONN=5.
+  INFO [0x00001664] [2017-12-26 21:41:51,759] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 2576 ----
+  INFO [0x00001664] [2017-12-26 21:41:51,759] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x00001664] [2017-12-26 21:41:51,759] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001664] [2017-12-26 21:41:51,760] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00001664] [2017-12-26 21:41:51,901] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00001664] [2017-12-26 21:41:51,902] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00001664] [2017-12-26 21:41:51,902] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00001664] [2017-12-26 21:41:51,905] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00001664] [2017-12-26 21:41:51,905] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00001664] [2017-12-26 21:41:51,906] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00001664] [2017-12-26 21:41:51,906] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00001664] [2017-12-26 21:41:51,951] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00001664] [2017-12-26 21:41:51,992] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00001664] [2017-12-26 21:41:51,992] - Script::install(): KBExtra is successfully!
+S_INFO [0x00001664] [2017-12-26 21:41:51,995] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001664] [2017-12-26 21:41:51,995] - TelnetServer server is running on port 34000
+  INFO [0x00001664] [2017-12-26 21:41:51,995] - ---- logger is running ----
+ DEBUG [0x00001664] [2017-12-26 21:41:51,996] - Components::process(): Request for the process of identity...
+  INFO [0x00001664] [2017-12-26 21:41:58,135] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51037, extaddr:nonsupport, extport:0,  from 192.168.100.93:51038/0/0/0.
+  INFO [0x00001664] [2017-12-26 21:41:58,135] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00001664] [2017-12-26 21:41:58,135] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001664] [2017-12-26 21:41:58,135] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51029, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:51039/0/0/0.
+  INFO [0x00001664] [2017-12-26 21:41:58,136] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001664] [2017-12-26 21:41:58,136] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51036, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:51041/0/0/0.
+  INFO [0x00001664] [2017-12-26 21:41:58,136] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00001664] [2017-12-26 21:41:59,128] - Components::process(): Found all the components!
+  INFO [0x00001664] [2017-12-26 21:42:00,955] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51027, extaddr:nonsupport, extport:0,  from 192.168.100.93:51091/0/0/0.
+  INFO [0x00001664] [2017-12-26 21:42:00,955] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00001664] [2017-12-26 21:42:01,155] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51028, extaddr:nonsupport, extport:0,  from 192.168.100.93:51097/0/0/0.
+  INFO [0x00001664] [2017-12-26 21:42:01,155] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00001664] [2017-12-26 21:42:01,775] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51026, extaddr:nonsupport, extport:0,  from 192.168.100.93:51099/0/0/0.
+  INFO [0x00001664] [2017-12-26 21:42:01,775] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x00001664] [2017-12-26 21:42:14,910] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001664] [2017-12-26 21:42:15,912] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001664] [2017-12-26 21:42:16,910] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001664] [2017-12-26 21:42:17,919] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001664] [2017-12-26 21:42:18,940] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001664] [2017-12-26 21:42:20,937] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001664] [2017-12-26 21:42:23,954] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001664] [2017-12-26 21:42:25,969] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001664] [2017-12-26 21:42:26,949] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001664] [2017-12-26 21:42:27,984] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  WARN [0x00001664] [2017-12-26 21:42:28,986] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  INFO [0x00001b88] [2017-12-26 21:43:21,932] - 
+  INFO [0x00001b88] [2017-12-26 21:43:21,933] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00001dfc] [2017-12-25 18:25:29,828] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x00001dfc] [2017-12-25 18:25:29,828] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x00001dfc] [2017-12-25 18:25:29,829] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x00001dfc] [2017-12-25 18:25:29,836] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:21593 )
-  INFO [0x00001dfc] [2017-12-25 18:25:29,836] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:21593, SOMAXCONN=5.
-  INFO [0x00001dfc] [2017-12-25 18:25:29,838] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:21594 )
-  INFO [0x00001dfc] [2017-12-25 18:25:29,838] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:21594, SOMAXCONN=5.
-  INFO [0x00001dfc] [2017-12-25 18:25:29,841] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 8900 ----
-  INFO [0x00001dfc] [2017-12-25 18:25:29,842] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x00001dfc] [2017-12-25 18:25:29,842] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00001dfc] [2017-12-25 18:25:29,842] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,988] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,988] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,989] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,992] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,992] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,993] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x00001dfc] [2017-12-25 18:25:29,993] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x00001dfc] [2017-12-25 18:25:30,033] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x00001dfc] [2017-12-25 18:25:30,117] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x00001dfc] [2017-12-25 18:25:30,117] - Script::install(): KBExtra is successfully!
-S_INFO [0x00001dfc] [2017-12-25 18:25:30,119] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00001dfc] [2017-12-25 18:25:30,119] - TelnetServer server is running on port 34000
-  INFO [0x00001dfc] [2017-12-25 18:25:30,120] - ---- logger is running ----
- DEBUG [0x00001dfc] [2017-12-25 18:25:30,120] - Components::process(): Request for the process of identity...
-  INFO [0x00001dfc] [2017-12-25 18:25:36,341] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21598, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:21602/0/0/0.
-  INFO [0x00001dfc] [2017-12-25 18:25:36,341] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00001dfc] [2017-12-25 18:25:36,341] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00001dfc] [2017-12-25 18:25:36,341] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21600, extaddr:nonsupport, extport:0,  from 192.168.100.93:21603/0/0/0.
-  INFO [0x00001dfc] [2017-12-25 18:25:36,342] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00001dfc] [2017-12-25 18:25:36,342] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21601, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:21605/0/0/0.
-  INFO [0x00001dfc] [2017-12-25 18:25:36,342] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00001dfc] [2017-12-25 18:25:37,341] - Components::process(): Found all the components!
-  INFO [0x00001dfc] [2017-12-25 18:25:39,060] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21597, extaddr:nonsupport, extport:0,  from 192.168.100.93:21616/0/0/0.
-  INFO [0x00001dfc] [2017-12-25 18:25:39,060] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00001dfc] [2017-12-25 18:25:39,260] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21599, extaddr:nonsupport, extport:0,  from 192.168.100.93:21617/0/0/0.
-  INFO [0x00001dfc] [2017-12-25 18:25:39,260] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00001dfc] [2017-12-25 18:25:39,460] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21596, extaddr:nonsupport, extport:0,  from 192.168.100.93:21618/0/0/0.
-  INFO [0x00001dfc] [2017-12-25 18:25:39,460] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x000025f0] [2017-12-25 18:28:29,956] - 
-  INFO [0x000025f0] [2017-12-25 18:28:29,957] - -----------------------------------------------------------------------------------------
-
-
-  INFO [0x000025f0] [2017-12-25 18:28:29,957] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
-  INFO [0x000025f0] [2017-12-25 18:28:29,957] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
-  INFO [0x000025f0] [2017-12-25 18:28:29,957] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
-  INFO [0x000025f0] [2017-12-25 18:28:29,965] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:21720 )
-  INFO [0x000025f0] [2017-12-25 18:28:29,965] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:21720, SOMAXCONN=5.
-  INFO [0x000025f0] [2017-12-25 18:28:29,967] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:21721 )
-  INFO [0x000025f0] [2017-12-25 18:28:29,967] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:21721, SOMAXCONN=5.
-  INFO [0x000025f0] [2017-12-25 18:28:29,971] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 10148 ----
-  INFO [0x000025f0] [2017-12-25 18:28:29,971] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
-  INFO [0x000025f0] [2017-12-25 18:28:29,971] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000025f0] [2017-12-25 18:28:29,972] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x000025f0] [2017-12-25 18:28:30,129] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x000025f0] [2017-12-25 18:28:30,129] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x000025f0] [2017-12-25 18:28:30,130] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x000025f0] [2017-12-25 18:28:30,133] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x000025f0] [2017-12-25 18:28:30,133] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x000025f0] [2017-12-25 18:28:30,133] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x000025f0] [2017-12-25 18:28:30,134] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x000025f0] [2017-12-25 18:28:30,177] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x000025f0] [2017-12-25 18:28:30,212] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
-  INFO [0x000025f0] [2017-12-25 18:28:30,212] - Script::install(): KBExtra is successfully!
-S_INFO [0x000025f0] [2017-12-25 18:28:30,214] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000025f0] [2017-12-25 18:28:30,214] - TelnetServer server is running on port 34000
-  INFO [0x000025f0] [2017-12-25 18:28:30,215] - ---- logger is running ----
- DEBUG [0x000025f0] [2017-12-25 18:28:30,215] - Components::process(): Request for the process of identity...
-  INFO [0x000025f0] [2017-12-25 18:28:36,395] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21727, extaddr:nonsupport, extport:0,  from 192.168.100.93:21729/0/0/0.
-  INFO [0x000025f0] [2017-12-25 18:28:36,395] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x000025f0] [2017-12-25 18:28:36,395] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000025f0] [2017-12-25 18:28:36,395] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21726, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:21730/0/0/0.
-  INFO [0x000025f0] [2017-12-25 18:28:36,396] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000025f0] [2017-12-25 18:28:36,396] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21728, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:21731/0/0/0.
-  INFO [0x000025f0] [2017-12-25 18:28:36,396] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000025f0] [2017-12-25 18:28:37,415] - Components::process(): Found all the components!
-  INFO [0x000025f0] [2017-12-25 18:28:39,075] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21723, extaddr:nonsupport, extport:0,  from 192.168.100.93:21743/0/0/0.
-  INFO [0x000025f0] [2017-12-25 18:28:39,075] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000025f0] [2017-12-25 18:28:39,276] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21724, extaddr:nonsupport, extport:0,  from 192.168.100.93:21744/0/0/0.
-  INFO [0x000025f0] [2017-12-25 18:28:39,276] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000025f0] [2017-12-25 18:28:39,975] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:21722, extaddr:nonsupport, extport:0,  from 192.168.100.93:21745/0/0/0.
-  INFO [0x000025f0] [2017-12-25 18:28:39,975] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  WARN [0x000025f0] [2017-12-25 18:29:00,788] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
-  WARN [0x000025f0] [2017-12-25 18:40:56,263] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
-  WARN [0x000025f0] [2017-12-25 18:40:56,656] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.39 seconds
-  WARN [0x000025f0] [2017-12-25 18:40:59,036] - event_dispatcher.cpp:171: Profile callSystemTimers took 2.36 seconds
-  WARN [0x000025f0] [2017-12-25 18:40:59,349] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.31 seconds
+  INFO [0x00001b88] [2017-12-26 21:43:21,933] - Resmgr::initialize: KBE_ROOT=I:/KBE/kbengine-1.0.0/kbe-ball/
+  INFO [0x00001b88] [2017-12-26 21:43:21,933] - Resmgr::initialize: KBE_RES_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/res/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/scripts/;I:/KBE/kbengine-1.0.0/kbe-ball/balls_server_assets/res/
+  INFO [0x00001b88] [2017-12-26 21:43:21,934] - Resmgr::initialize: KBE_BIN_PATH=I:/KBE/kbengine-1.0.0/kbe-ball/kbe/bin/server/
+  INFO [0x00001b88] [2017-12-26 21:43:21,943] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:51533 )
+  INFO [0x00001b88] [2017-12-26 21:43:21,943] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 192.168.100.93:51533, SOMAXCONN=5.
+  INFO [0x00001b88] [2017-12-26 21:43:21,945] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 192.168.100.93 ( 192.168.100.93:51534 )
+  INFO [0x00001b88] [2017-12-26 21:43:21,945] - NetworkInterface::recreateListeningSocket(INTERNAL): address 192.168.100.93:51534, SOMAXCONN=5.
+  INFO [0x00001b88] [2017-12-26 21:43:21,950] - ---- logger Version: 1.0.0. ScriptVersion: 0.1.0. Protocol: 05542062A5C7EEC8F7A209E8A8EC8D78. Config: Debug X86. Built: 15:23:36 Nov 23 2017. AppID: 2000. UID: 10103. PID: 6632 ----
+  INFO [0x00001b88] [2017-12-26 21:43:21,952] - Server :         Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz with 4194303kB RAM
+  INFO [0x00001b88] [2017-12-26 21:43:21,952] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001b88] [2017-12-26 21:43:21,953] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,110] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,111] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,111] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,115] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,115] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,115] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,115] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,157] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00001b88] [2017-12-26 21:43:22,191] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 23 2017, 15:23:32) [MSC v.1800 32 bit (Intel)])!
+  INFO [0x00001b88] [2017-12-26 21:43:22,191] - Script::install(): KBExtra is successfully!
+S_INFO [0x00001b88] [2017-12-26 21:43:22,193] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001b88] [2017-12-26 21:43:22,193] - TelnetServer server is running on port 34000
+  INFO [0x00001b88] [2017-12-26 21:43:22,194] - ---- logger is running ----
+ DEBUG [0x00001b88] [2017-12-26 21:43:22,194] - Components::process(): Request for the process of identity...
+  WARN [0x00001b88] [2017-12-26 21:43:22,559] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20086, errorno=10048
+  INFO [0x00001b88] [2017-12-26 21:43:28,654] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51540, extaddr:192.168.100.93, extport:20013,  from 192.168.100.93:51546/0/0/0.
+  INFO [0x00001b88] [2017-12-26 21:43:28,654] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00001b88] [2017-12-26 21:43:28,654] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001b88] [2017-12-26 21:43:29,660] - Components::process(): Found all the components!
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51538, extaddr:nonsupport, extport:0,  from 192.168.100.93:51606/0/0/0.
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51537, extaddr:192.168.100.93, extport:20015,  from 192.168.100.93:51607/0/0/0.
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51536, extaddr:nonsupport, extport:0,  from 192.168.100.93:51608/0/0/0.
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51535, extaddr:nonsupport, extport:0,  from 192.168.100.93:51609/0/0/0.
+  INFO [0x00001b88] [2017-12-26 21:43:31,555] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00001b88] [2017-12-26 21:43:32,075] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.100.93, intport:51539, extaddr:nonsupport, extport:0,  from 192.168.100.93:51610/0/0/0.
+  INFO [0x00001b88] [2017-12-26 21:43:32,075] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x00001b88] [2017-12-26 21:44:02,328] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001b88] [2017-12-26 21:44:03,328] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001b88] [2017-12-26 21:44:04,335] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  WARN [0x00001b88] [2017-12-26 21:44:06,357] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001b88] [2017-12-26 21:44:07,354] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds
+  WARN [0x00001b88] [2017-12-26 21:44:08,349] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.03 seconds

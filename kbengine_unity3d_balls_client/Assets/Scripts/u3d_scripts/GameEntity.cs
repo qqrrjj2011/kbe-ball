@@ -12,6 +12,7 @@ public class GameEntity : MonoBehaviour
 
     public bool isPlayer = false;
     public bool isAvatar = false;
+    public bool isFood = false;
 
     private Vector3 _position = Vector3.zero;
     private Vector3 _eulerAngles = Vector3.zero;
@@ -271,9 +272,6 @@ public class GameEntity : MonoBehaviour
 
     void Update()
     {
-        if (!isAvatar)
-            return;
-
         if (!entityEnabled)
         {
             position = destPosition;
@@ -314,7 +312,7 @@ public class GameEntity : MonoBehaviour
                     updatePos(this.transform.position + (lastMoveDir * deltaSpeed));
             }
         }
-        else
+        else if(isAvatar)
         {
             // 如果是其他玩家移动
             float dist = Vector3.Distance(new Vector3(destPosition.x, destPosition.y, 0f),
@@ -341,6 +339,10 @@ public class GameEntity : MonoBehaviour
             {
                 position = destPosition;
             }
+        }
+        else if (isFood)
+        {
+            position = destPosition;
         }
     }
 }

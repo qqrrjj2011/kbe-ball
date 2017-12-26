@@ -8789,3 +8789,24 @@
   INFO root [0x00001e38] [2017-12-25 18:28:31,096] - ---- cellapp is running ----
  DEBUG root [0x00001e38] [2017-12-25 18:28:31,096] - Components::process(): Request for the process of identity...
   WARN root [0x00001e38] [2017-12-25 18:28:37,154] - Forwarding logs to logger[192.168.100.93:21721/0/0/0]...
+ ERROR root [0x00001e38] [2017-12-25 19:25:32,247] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00001e38] [2017-12-25 19:25:32,250] - The following logs sent to logger failed:
+  WARN root [0x00001e38] [2017-12-25 19:25:32,250] - ==> [2017-12-25 19:25:32 245] TCPPacketReceiver::processPendingEvents(192.168.100.93:21721): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001e38] [2017-12-25 19:25:32,250] - ==> [2017-12-25 19:25:32 248] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00001e38] [2017-12-25 19:25:32,327] - TCPPacketReceiver::processPendingEvents(192.168.100.93:21722): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001e38] [2017-12-25 19:25:32,330] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00001e38] [2017-12-25 19:25:32,333] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001e38] [2017-12-25 19:25:32,337] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001e38] [2017-12-25 19:25:32,339] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,340] - EntityRef::destroyObjPool(): size 304.
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,340] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,350] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,350] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,350] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,350] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,351] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,351] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,351] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,351] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001e38] [2017-12-25 19:25:32,362] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001e38] [2017-12-25 19:25:32,362] - ThreadPool::destroy(): starting size 2.
